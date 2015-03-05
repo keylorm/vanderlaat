@@ -127,3 +127,16 @@ function vanderlaat_preprocess_block(&$vars, $hook) {
   // Add a striping class.
   $vars['classes_array'][] = 'block-' . $vars['zebra'];
 }
+
+
+function vanderlaat_menu_link($variables) {
+  $element = $variables['element'];
+
+  static $item_id = 0;
+  $element['#attributes']['class'][] = 'menu-item-custom-id' . (++$item_id);
+  $sub_menu = $element['#below'] ? drupal_render($element['#below']) : '';
+
+  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>\n';
+}

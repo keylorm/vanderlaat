@@ -1,19 +1,29 @@
 html{
 	border: none !important;
 }
-body .header{
-	background: none;
+
+.header .grid,
+.main-content,
+.footer {
+  max-width: 1000px !important;
 }
 
-#block-system-main-menu{
+body .header{
+	background: none;
+	height: 120px;
+	background-color: #FFFFFF;
+}
+#logo{
+	display:block;
+	float:left;
 }
 #block-system-main-menu ul{
 	list-style: none;
-	margin: 0px; padding: 0px; float: right;
+	margin: 0px; padding: 0px; float: right; margin-top: 15px;
 }
 #block-system-main-menu ul li{
 	display:inline-block; box-sizing: border-box;
-	margin: 0px;  margin-left: 10px;
+	margin: 0px;
 }
 #block-system-main-menu ul li a{
   display: inline-flex;
@@ -32,8 +42,15 @@ body .header{
   box-sizing: border-box;
   padding: 20px 0 0 20px;
   line-height: 17px;
-	
 }
+
+#block-system-main-menu ul li a{
+	width: 120px;
+}
+#block-system-main-menu ul li.last a{
+	width: 65px;
+}
+
 #block-system-main-menu ul li a:hover,
 #block-system-main-menu ul li a.active-{
   background-image: url('../images/active_menu.png');

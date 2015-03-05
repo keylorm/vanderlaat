@@ -53,7 +53,7 @@ stylesheets[all][] = css/normal.css
 stylesheets[all][] = css/wide.css
 
 ;-------------- JS -------------
-
+scripts[] = js/global.js
 
 
 

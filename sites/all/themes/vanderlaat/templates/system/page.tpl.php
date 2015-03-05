@@ -24,8 +24,9 @@
       <?php print render($page['utility_bar']); ?>
     </div><!-- end utility bar -->
   <?php endif; ?>
-  <?php print render($page['top_header']); ?>
-
+  <div class="top-menu-container">
+    <?php print render($page['top_header']); ?>
+  </div>
   <?php if ($logo): ?>
     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
       <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />

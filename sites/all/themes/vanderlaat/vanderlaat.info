@@ -23,6 +23,7 @@ regions[page_top]           = Page Top
 regions[page_bottom]        = Page Bottom
 
 regions[utility_bar]        = Utility Bar
+regions[top_header]         = Top Header
 regions[header]             = Header
 
 regions[help]               = Help

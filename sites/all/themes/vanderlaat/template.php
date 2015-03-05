@@ -129,7 +129,7 @@ function vanderlaat_preprocess_block(&$vars, $hook) {
 }
 
 
-function vanderlaat_menu_link(array $variables) {
+function vanderlaat_menu_link($variables) {
   //add class for li
    $variables['element']['#attributes']['class'][] = 'menu-' . $variables['element']['#original_link']['mlid'];
 //add class for a

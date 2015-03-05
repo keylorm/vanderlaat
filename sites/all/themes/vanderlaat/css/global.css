@@ -44,8 +44,10 @@ body .header{
   line-height: 17px;
 }
 
-#block-system-main-menu ul li a{
-	width: 120px;
+#block-system-main-menu ul li.menu-510 a,
+#block-system-main-menu ul li.menu-512 a,
+#block-system-main-menu ul li.menu-513 a{
+	width: 130px;
 }
 #block-system-main-menu ul li.last a{
 	width: 65px;

@@ -129,14 +129,11 @@ function vanderlaat_preprocess_block(&$vars, $hook) {
 }
 
 
-function vanderlaat_menu_link($variables) {
-  $element = $variables['element'];
-
-  static $item_id = 0;
-  $element['#attributes']['class'][] = 'menu-item-custom-id' . (++$item_id);
-  $sub_menu = $element['#below'] ? drupal_render($element['#below']) : '';
-
-  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-
-  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>\n';
+function vanderlaat_menu_link(array $variables) {
+  //add class for li
+   $variables['element']['#attributes']['class'][] = 'menu-' . $variables['element']['#original_link']['mlid'];
+//add class for a
+   $variables['element']['#localized_options']['attributes']['class'][] = 'menu-' . $variables['element']['#original_link']['mlid'];
+//dvm($variables['element']);
+  return theme_menu_link($variables);
 }

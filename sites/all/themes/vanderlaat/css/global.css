@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Roboto+Slab:400,700,300|Roboto:400,300,700,500);
+
 html{
 	border: none !important;
 }
@@ -7,8 +9,103 @@ html{
 .footer {
   max-width: 1000px !important;
 }
+body .header .top-menu-container{
+	height: 50px;
+	background-color: #00599C;
+}
 
-body .header{
+body .header .top-menu-container .grid div,
+body .header .top-menu-container .grid nav{
+	display: block; float:left; 
+}
+
+body .header .top-menu-container .form-item{
+	margin: 0px;
+}
+body .header .top-menu-container #block-lang-dropdown-language{
+	border-right: 1px solid #002D5C;
+	margin-right: 390px;
+}
+body .header .top-menu-container #lang-dropdown-select-language{
+	font-family:'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #FFF;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	background-image: url('../images/f-idiomas.png');
+	background-repeat: no-repeat;
+	background-position: 98% 50%;
+	height: 50px;
+	margin-right: 20px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;	
+}
+body .header .top-menu-container #lang-dropdown-select-language option{
+	display:block;
+	background-color: #00599C;
+}
+
+
+body .header .top-menu-container .grid #block-menu-menu-top-menu{
+}
+body .header .top-menu-container .grid #block-menu-menu-top-menu ul{
+	list-style: none; margin: 0px; padding: 0px;
+}
+body .header .top-menu-container .grid #block-menu-menu-top-menu ul li{
+	list-style: none;
+	display:inline-block; float:left;
+	margin: 0px;
+	padding: 0px;
+}
+body .header .top-menu-container .grid #block-menu-menu-top-menu ul li a{
+	display: block;
+  padding: 11px;
+  border-left: 1px solid #002d5c;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;	
+}
+
+body .header .top-menu-container #block-search-form,
+body .header .top-menu-container #block-menu-menu-top-menu{
+
+}
+body .header .top-menu-container .form-item-search-block-form input{
+  width: 185px;
+  height: 50px;
+  border-style: none solid;
+  border-right-width: 1px;
+  border-right-color: #002d5c;
+  border-left-width: 1px;
+  border-left-color: #002d5c;
+  border-top: none; border-bottom: none;
+  background-color: #00457e;
+  background-image: url('../images/lupa.png');
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 50px;
+  box-sizing:border-box;
+  margin-top: -5px\9;
+}
+body .header .top-menu-container #search-block-form .form-submit{
+	display: none;
+}
+
+
+
+
+
+body .header .logo-menu-wrapper{
 	background: none;
 	height: 120px;
 	background-color: #FFFFFF;
@@ -16,17 +113,18 @@ body .header{
 #logo{
 	display:block;
 	float:left;
+	margin-top: 15px;
 }
 #block-system-main-menu ul{
 	list-style: none;
 	margin: 0px; padding: 0px; float: right; margin-top: 15px;
 }
 #block-system-main-menu ul li{
-	display:inline-block; box-sizing: border-box;
+	display:inline-block; box-sizing: border-box; float:left;
 	margin: 0px;
 }
 #block-system-main-menu ul li a{
-  display: inline-flex;
+  display: block;
   height: 80px;
   background-image: url('../images/active_menu.png');
   background-position: 120% 50%;
@@ -43,9 +141,10 @@ body .header{
   padding: 20px 0 0 20px;
   line-height: 17px;
 }
-
-#block-system-main-menu ul li a{
-	width: 120px;
+#block-system-main-menu ul li.menu-510 a, #block-system-main-menu ul li.menu-562 a,
+#block-system-main-menu ul li.menu-512 a, #block-system-main-menu ul li.menu-560 a,
+#block-system-main-menu ul li.menu-513 a, #block-system-main-menu ul li.menu-559 a{
+	width: 130px;
 }
 #block-system-main-menu ul li.last a{
 	width: 65px;

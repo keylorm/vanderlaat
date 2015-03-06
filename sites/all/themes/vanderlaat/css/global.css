@@ -6,8 +6,9 @@ html{
 
 .header .grid,
 .main-content,
-.footer {
+.footer .grid{
   max-width: 1000px !important;
+  margin: 0 auto;
 }
 body .header .top-menu-container{
 	height: 50px;
@@ -154,4 +155,107 @@ body .header .logo-menu-wrapper{
 #block-system-main-menu ul li a.active-{
   background-image: url('../images/active_menu.png');
   background-position: 0px 50%;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+body .footer{
+	max-width: 100% !important;
+	height: 400px;
+	background-color: #00599C;
+	padding-top: 30px;
+}
+
+body .footer .footer-first-wrapper,
+body .footer .footer-second-wrapper{
+	float:left;
+}
+body .footer .footer-first-wrapper{
+	width: 750px;
+}
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu{
+	margin-top: 35px;
+}
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul{
+}
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li{
+	list-style: none; float:left;
+	margin: 0px; padding: 10px;
+	margin-right: 5px;
+}
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li a{
+  font-family: Roboto, sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 17px;	
+}
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li.menu-550{
+	margin-left: 10px;
+}
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li.menu-546,
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li.menu-548,
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li.menu-549,
+body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li.last{
+	width: 120px;
+	margin-right: 0px;
+}
+
+
+
+
+body .footer .footer-second-wrapper{
+	width: 250px;
+}
+
+body .footer .footer-second-wrapper #block-block-2 p,
+body .footer .footer-second-wrapper #block-block-2 a{
+	text-align: right;
+	font-family: Roboto, sans-serif;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 22px;
+}
+body .footer .footer-second-wrapper .redes-logos-footer{
+	float:right;
+}
+
+body .footer .footer-second-wrapper #block-webform-client-block-1{
+	float: right;
+	margin-right:20px;
+}
+
+body .footer .footer-second-wrapper #block-webform-client-block-1 .email{
+	border: none;
+	height: 30px;
+	color: #6D6E70;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	padding-left: 15px;
+	width: 170px;
+}
+body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-component-email{
+	margin-top: 2px;
+}
+body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submit{
+	background-color: transparent;
+	border-radius: 3px;
+	border: 2px solid #FFF;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFF;
+	padding: 5px 10px;
 }

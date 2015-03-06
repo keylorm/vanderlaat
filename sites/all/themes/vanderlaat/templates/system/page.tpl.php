@@ -123,7 +123,7 @@
     <div class="footer-first-wrapper">
       <?php print render($page['footer_first']); ?>
     </div>
-    <div class="footer-first-wrapper">
+    <div class="footer-second-wrapper">
       <?php print render($page['footer_second']); ?>
     </div>
   </div>

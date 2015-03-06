@@ -119,8 +119,13 @@
 <?php endif; // end Below Content ?>
 
 <footer class="footer" role="contentinfo">
-  <div class="">
-    <?php print render($page['footer']); ?>
+  <div class="grid">
+    <div class="footer-first-wrapper">
+      <?php print render($page['footer_first']); ?>
+    </div>
+    <div class="footer-first-wrapper">
+      <?php print render($page['footer_second']); ?>
+    </div>
   </div>
 </footer>
 

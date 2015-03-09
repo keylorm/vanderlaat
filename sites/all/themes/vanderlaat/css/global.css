@@ -1,14 +1,25 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Roboto+Slab:400,700,300|Roboto:400,300,700,500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Ubuntu:400,700|Raleway:400|Roboto+Slab:400,700,300|Roboto:400,300,700,500);
 
 html{
 	border: none !important;
 }
 
 .header .grid,
-.main-content,
-.footer .grid{
+.footer .grid,
+.grid-1000 .pane-content{
   max-width: 1000px !important;
   margin: 0 auto;
+}
+.grid-1280 .pane-content{
+  max-width: 1280px !important;
+  margin: 0 auto;	
+}
+body:not(.not-front) .main-content{
+  max-width: 100% !important;	
+}
+body:not(.front) .main-content{
+  max-width: 1000px !important;
+  margin: 0 auto;	
 }
 body .header .top-menu-container{
 	height: 50px;
@@ -102,13 +113,123 @@ body .header .top-menu-container #search-block-form .form-submit{
 	display: none;
 }
 
+/*SLIDER*/
+
+.flexslider{
+	margin: 0px;
+	background: none;
+	border: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;	
+}
+#slider-home .flex-caption{
+	position: absolute;
+	width: 1000px;
+	top: 40%;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	background-image: url('../images/bg_caption.png');
+	background-repeat: repeat;
+	padding: 25px 0px 35px 0px;
+	
+}
+#slider-home .flex-caption .slider-home-title h3{
+	font-family: Ubuntu, sans-serif;
+	font-size: 47px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: white;
+	margin: 0px;
+}
+#slider-home .flex-caption .slider-home-desc p{
+	font-family: Raleway, sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: white;
+	margin-bottom: 15px; margin-top: 15px; 	
+}
+#slider-home .flex-caption .slider-home-button a{
+	display:block;
+	width: 215px;
+	margin: 0 auto;
+  padding: 13px 0px;
+  border: 2px solid white;
+  border-radius: 4px;
+	font-family: Ubuntu, sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white; 
+}
+#slider-home .flex-control-paging{
+	display: none;
+}
+#slider-home .flex-direction-nav{
+	width: 1000px;
+	margin: 0 auto;
+	position: absolute;
+	margin-top: -90px;
+	right: 0px;
+	left: 0px;
+}
+#slider-home .flex-direction-nav li a{
+	width: 70px;
+	height: 70px;
+	overflow:hidden; 
+	
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#slider-home .flex-direction-nav li a:before{
+  content: '';
+  margin-left: 100px;
+  height: 70px;	
+}
+
+#slider-home .flex-direction-nav a.flex-prev{
+	background-image: url('../images/prev_slider.png');
+}
+#slider-home .flex-direction-nav a.flex-next{
+	background-image: url('../images/next_slider.png');
+}
 
 
+/*********/
 
+.breadcrumb{
+	color: #6D6E70;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	padding: 20px 0px;
+}
+.breadcrumb a{
+	color: #6D6E70;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	padding: 20px 0px;
+	text-decoration: none;
+}
+.breadcrumb .crumbs-separator{
+	margin:0px 5px;
+	color: #6D6E70;
+}
 
 body .header .logo-menu-wrapper{
 	background: none;
-	height: 120px;
+	height: 130px;
 	background-color: #FFFFFF;
 }
 #logo{
@@ -157,12 +278,163 @@ body .header .logo-menu-wrapper{
   background-position: 0px 50%;
 }
 
+.panel-pane{
+	clear:both;
+}
 
+/*PILARES*/
+.pilares-titulo h2{
+	color: #00599C;
+	font-family: Ubuntu, sans-serif;
+	font-size: 31px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align:center;
+	letter-spacing: 2px;
+	line-height: 36px;
+}
+.pilares-titulo h2 strong{
 
+}
+.pilares-descri p{
+  font-family: Roboto, sans-serif;
+  color: #58595B;
+  font-size: 23px;
+  font-weight: 300;
+  text-align:center;
+  padding: 0px 90px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
 
+.icons{
+	clear:both;
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 30px 0px;	
+}
+.icon {
+  display: block;
+  width: 105px;
+  height: 105px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;  
+}
+.box_icon {
+  display: block;
+  width: 25%;
+  float: left;
+}
+.titulo_icon {
+  font-family: Roboto, sans-serif;
+  color: #231f20;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+.icon.icon_1 {
+  background-image: url('../images/solidez.png');
+}
+.icon.icon_2 {
+  background-image: url('../images/responsabilidad.png');
+}
+.icon.icon_2 + p{
+	line-height: 12px;
+	padding-top: 10px;
+}
+.icon.icon_3 {
+  background-image: url('../images/entrega.png');
+}
+.icon.icon_4 {
+  background-image: url('../images/trayectoria.png');
+}
 
+.panels-flexible-region{
+	width: 100%;
+}
+.pane-views-servicios-block{
+	background-color: #E6E7E8;
+	overflow:hidden;
+}
+.view-servicios{
+	clear:both;
+}
 
+.view-servicios .view-header h2{
+	color: #00599C;
+	font-family: Ubuntu, sans-serif;
+	font-size: 38px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align:center;	
+}
 
+.lineas{
+  display:table;
+  position: relative;
+  /*left: 20px;
+  display: inline-block;*/
+  padding: 10px;
+  width: auto;
+  margin:auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 0px 140px;
+}
+ 
+.lineas:before,
+.lineas:after {
+  position: absolute;
+  top: 50%;
+  left: 0px; /*-20*/
+  display: block;
+  height: 1px;
+  width: 90px;
+  background: #58595B;
+  content: " ";
+}
+.lineas:after {
+  left: auto;
+  right: 0px; /*-20*/
+}
+
+.view-servicios .view-content .views-row{
+	float:left;
+	height: 180px;
+	position:relative;
+}
+.view-servicios .view-content .views-row .views-field-title{
+	position:absolute;
+	width: 100%;
+	height: 50px;
+	background-image: url('../images/bgazul.png');
+	background-repeat: repeat;
+	bottom: 0px;
+}
+.view-servicios .view-content .views-row .views-field-title a{
+	display:block;
+	width: 100%;
+	height:50px;
+	color: #FFF;
+	font-family: Ubuntu, sans-serif;
+	font-size: 15px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-image: url('../images/icon_servicios.png');
+	background-repeat: no-repeat;
+	background-position: 93% 50%; 
+	padding: 0px 40px 0px 15px;
+	text-decoration: none;
+}
+
+.view-servicios .view-content .views-row-4 .views-field-title a{
+	line-height: 15px;
+	padding-top: 11px;
+}
 
 /* FOOTER */
 

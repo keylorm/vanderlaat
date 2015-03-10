@@ -6,11 +6,13 @@ html{
 
 .header .grid,
 .footer .grid,
-.grid-1000 .pane-content{
+.grid-1000 .pane-content,
+.grid-1000 .view-content{
   max-width: 1000px !important;
   margin: 0 auto;
 }
-.grid-1280 .pane-content{
+.grid-1280 .pane-content,
+.grid-1280 .view-content{
   max-width: 1280px !important;
   margin: 0 auto;	
 }
@@ -256,10 +258,10 @@ body .header .logo-menu-wrapper{
   background-repeat: no-repeat;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  font-family:'Roboto Slab', sans-serif;
+  font-family: Ubuntu, sans-serif;
   color: #231f20;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
   box-sizing: border-box;
@@ -715,4 +717,50 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	font-size: 16px;
 	color: #FFF;
 	padding: 5px 10px;
+}
+
+
+/* Solidez y Respaldo */
+.view-id-imagen_top .views-row{
+	height:260px;
+}
+.views-field-field-imagen-top{
+}
+.views-field-nothing{
+	position: relative;
+	/*bottom: 0px;
+	right: 0px;
+	left: 0px;	*/
+	background-image: url('../images/bgblanco.png');
+	background-repeat: repeat;
+	width: 1000px;
+	height: 125px;
+	margin: 0 auto;
+	text-align:center;
+	margin-top: -125px;
+	
+}
+.texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+	font-family: Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size: 34px;
+	color: #00599C;
+	line-height: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	width: 600px;	
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.page-node-22 #page-title{
+	display: none;
+}
+.main .field-name-body p{
+	font-family: Roboto, sans-serif;
+	color: #58595B;
+	font-weight: 300;
+	font-size: 25px;
+	text-align:center;
+	line-height: 35px;
 }

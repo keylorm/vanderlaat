@@ -726,7 +726,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 }
 .views-field-field-imagen-top{
 }
-.views-field-nothing{
+.view-id-imagen_top .views-field-nothing{
 	position: relative;
 	/*bottom: 0px;
 	right: 0px;
@@ -763,4 +763,143 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	font-size: 25px;
 	text-align:center;
 	line-height: 35px;
+}
+.view-id-historia{
+	position: relative;
+}
+.view-id-historia .views-row{
+	width: 360px;
+	background-color: #F1F1F2;
+	box-sizing:border-box;
+	padding: 29px;
+}
+.view-id-historia .views-row-even{
+	right: 0px;
+	
+}
+.view-id-historia .views-row-even{
+
+}
+.view-id-historia .views-row .views-field-field-ano-evento div{
+	color: #00599C;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 54px;
+	font-weight: bold;
+	line-height: 54px;
+	margin-bottom: 30px;
+}
+
+
+.solidez-mision-vision{
+	background-color:#F1F1F2;
+	overflow: hidden;
+	padding: 30px 0 30px 0;
+}
+.solidez-mision-vision .solidez-mision-vision-encabezado h2{
+	color: #58595B;
+	font-family: Ubuntu, sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.solidez-mision-vision .solidez-mision-vision-content .solidez-col{
+	float: left;
+	width: 46%;
+}
+.solidez-mision-vision .solidez-mision-vision-content .solidez-col1{
+	margin-right: 80px;
+}
+.solidez-mision-vision .solidez-mision-vision-content .solidez-col h3{
+	color: #00599C;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 27px;
+	text-transform: uppercase;	
+}
+.solidez-mision-vision .solidez-mision-vision-content .solidez-col p{
+	color: #58595B;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: justify;
+}
+
+.solidez-liston-contacto-negro{
+	background-color: #58595B;
+	overflow: hidden;
+	padding: 10px 0px 50px 0px;
+}
+.solidez-liston-contacto-negro .solidez-liston-contacto-negro-texto p{
+	font-family: Ubuntu, sans-serif;
+	font-weight: normal;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align:center;
+	line-height: 33px;
+	margin-bottom: 40px;
+}
+.solidez-liston-contacto-negro .solidez-liston-contacto-boton{
+	text-align:center;
+}
+.solidez-liston-contacto-negro .solidez-liston-contacto-boton a{
+  padding: 18px 50px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  text-align:center;	
+}
+
+.view-id-fundadores .fundadores-encabezado h2{
+	color: #58595B;
+	font-family: Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-transform: uppercase;	
+}
+
+.view-id-fundadores .view-content{
+}
+.view-id-fundadores .view-content .views-row{
+	float: left;
+	width: 49%;
+	box-sizing:border-box;
+}
+.view-id-fundadores .view-content .views-row-odd{
+	margin-right: 2%;
+}
+.view-id-fundadores .view-content .views-row .fundador-imagen{
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+}
+.view-id-fundadores .view-content .views-row .fundador-texto{
+	float: left;
+	width: 50%;
+	box-sizing:border-box;
+}
+.view-id-fundadores .view-content .views-row .fundador-texto .fundador-nombre,
+.view-id-fundadores .view-content .views-row .fundador-texto .fundador-puesto{
+	color: #00599C;
+	font-family: Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+.view-id-fundadores .view-content .views-row .fundador-texto .fundador-puesto{
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.view-id-fundadores .view-content .views-row .fundador-texto .fundador-descri{
+	color: #404041;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
 }

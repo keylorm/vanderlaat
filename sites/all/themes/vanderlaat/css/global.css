@@ -1292,3 +1292,43 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 #block-views-proyectos-block h2{
 	display: none;
 }
+#block-views-proyectos-block .bloque-proyectos-encabezado h3{
+	color: #004C89;
+	font-family: Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 90px;
+	text-align:center;
+}
+#block-views-proyectos-block .view-proyectos .views-row{
+	display:inline-block;
+	position: relative;
+	width: 31%;
+	min-height: 366px;
+	padding: 30px;
+	border-top: 4px solid #004c89;
+	background-color: #f1f1f2;
+	float: left;
+	margin-right: 30px;
+	box-sizing: border-box;	
+}
+
+#block-views-proyectos-block .view-proyectos .view-footer{
+	margin: 40px 0px;
+}
+#block-views-proyectos-block .view-proyectos .view-footer a{
+	border: 2px solid #404041;
+	border-radius: 4px;
+	font-family: Ubuntu, sans-serif;
+	font-size: 22px;
+	line-height: 23px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	max-width: 290px;
+	padding: 10px 0px;
+	color: #404041;
+	text-align: center;
+	margin: 0 auto;	
+}

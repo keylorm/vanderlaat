@@ -359,6 +359,15 @@ body .header .logo-menu-wrapper{
   background-image: url('../images/trayectoria.png');
 }
 
+.icon.icon_5 {
+  background-image: url('../images/calidad.png');
+}
+
+.icon.icon_6 {
+  background-image: url('../images/honestidad.png');
+}
+
+
 .panels-flexible-region{
 	width: 100%;
 }
@@ -632,6 +641,7 @@ body .footer{
 	height: 400px;
 	background-color: #00599C;
 	padding-top: 30px;
+	clear: both;
 }
 
 body .footer .footer-first-wrapper,
@@ -765,21 +775,103 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	text-align:center;
 	line-height: 35px;
 }
+
+#block-block-18{
+}
+
+#block-block-18 .submenu-list{
+	margin: 0px; padding: 0px;
+	border-bottom: solid 1px #A8ABAD;
+	border-top: solid 1px #A8ABAD;
+	margin-bottom: 40px;
+}
+#block-block-18 .submenu-list li{
+	display: inline-block;
+  *zoom: 1;
+  *display: inline;	
+}
+#block-block-18 .submenu-list li a{
+	display:block;
+	color: #58595B;
+	text-decoration: none;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 20px 55px;
+}
+#block-block-18 .submenu-list li.first a{
+	padding-left: 0px;
+}
+#block-block-18 .submenu-list li.last a{
+	padding-right: 0px;
+}
+#block-block-18 .submenu-list li a:hover{
+	color: #00599C;
+}
 .view-id-historia{
 	position: relative;
+	padding-bottom: 60px;
+}
+
+.view-id-historia .view-header .bolita,
+.view-id-historia .view-footer .bolita{
+	width: 35px; height:35px;
+	background-image: url('../images/ini-historia.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
 }
 .view-id-historia .views-row{
 	width: 360px;
 	background-color: #F1F1F2;
 	box-sizing:border-box;
 	padding: 29px;
+	margin-bottom: 60px;
+	position: relative;
 }
-.view-id-historia .views-row-even{
-	right: 0px;
+.view-id-historia .views-row .views-field-body .field-content{
+	color: #58595B;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 22px;
+	margin-bottom: 20px;
 	
 }
-.view-id-historia .views-row-even{
+.view-id-historia .views-row-1{
+	margin-top: 20px;
+}
+.view-id-historia .views-row-2{
+	margin-top: 100px;
+}
+.view-id-historia .views-row .linea-union{
+	width: 140px;
+	height: 5px;
+	background-image: url('../images/linea-derizq-historia.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+	position:absolute;
+}
+.view-id-historia .views-row.views-row-odd .linea-union{
+	right: -140px;
+	top: 60px;
+}
+.view-id-historia .views-row.views-row-even .linea-union{
+	left: -140px;
+	top: 120px;
+}
 
+.view-id-historia .item-list{
+	display: none;
+}
+
+
+.view-id-historia .view-content{
+	background-image: url('../images/linea-historia.png');
+	background-repeat: repeat-y;
+	background-position: top center;
+	
 }
 .view-id-historia .views-row .views-field-field-ano-evento div{
 	color: #00599C;
@@ -787,7 +879,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	font-size: 54px;
 	font-weight: bold;
 	line-height: 54px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 
@@ -872,7 +964,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 .view-id-fundadores .fundadores-encabezado .flecha-go-up{
 	position:relative;
 }
-.view-id-fundadores .fundadores-encabezado .flecha-go-up a{
+.flecha-go-up a{
 	display:block;
 	width: 52px;
 	height: 52px;
@@ -958,4 +1050,104 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
   margin:0 auto;
   text-align:center;
   line-height: 23px;
+}
+
+.view-premios .premios-encabezado-titulo h2{
+	font-family: Ubuntu, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 36px;
+	font-size: 35px;
+	color: #58595B;
+	padding-top: 30px;
+	padding-bottom: 30px;		
+}
+.view-premios .premios-encabezado-texto p{
+	font-family: Roboto, sans-serif;
+	color: #58595B;
+	font-size: 23px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin-bottom: 50px;	
+}
+.view-premios .view-content{
+	clear:both;
+	overflow: hidden;
+}
+.view-premios .view-content .views-row{
+	width: 315px;
+	min-height: 160px;
+	float: left;
+	background-color: #F1F1F2;
+	box-sizing:border-box;
+	padding: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.view-premios .view-content .views-row p{
+	font-family: Roboto, sans-serif;
+	color: #58595B;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 22px;
+	margin: 0px;	
+}
+
+.view-premios .view-content .views-row.views-row-3,
+.view-premios .view-content .views-row.views-row-6,
+.view-premios .view-content .views-row.views-row-9,
+.view-premios .view-content .views-row.views-row-12,
+.view-premios .view-content .views-row.views-row-15{
+	margin-right: 0px;
+}
+
+.view-premios{
+	overflow:hidden;
+	clear:both;
+}
+.view-premios .view-footer{
+	clear:both;
+	margin-bottom: 40px;
+	margin-top: 20px;	
+}
+.view-premios .view-footer .premios-boton a{
+	display: block;
+	padding: 8px 15px;
+	border: 2px solid #00599C;
+	border-radius: 4px;
+	font-family: Ubuntu, sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00599C;
+	width: 290px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 23px;	
+}
+
+
+#block-block-16{
+	background-color: #F1F1F2;
+	overflow: hidden;
+}
+.flecha-go-up{
+	position:relative;
+}
+#block-block-16 .pilares .pilares-titulo{
+	position:relative;
+}
+#block-block-16 .pilares .pilares-titulo h2{
+	font-size: 35px;
+	color: #58595B;
+	padding-top: 30px;
+	padding-bottom: 30px;		
+}
+#block-block-16 .pilares .pilares-descri p{
+	padding: 0px;
 }

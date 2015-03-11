@@ -7,7 +7,8 @@ html{
 .header .grid,
 .footer .grid,
 .grid-1000 .pane-content,
-.grid-1000 .view-content{
+.grid-1000 .view-content,
+.grid-1000 .view-header{
   max-width: 1000px !important;
   margin: 0 auto;
 }
@@ -856,23 +857,42 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
   text-align:center;	
 }
 
+#block-views-fundadores-block{
+	overflow: hidden;
+}
 .view-id-fundadores .fundadores-encabezado h2{
 	color: #58595B;
 	font-family: Ubuntu, sans-serif;
 	font-weight: bold;
 	font-size: 35px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;		
 }
-
+.view-id-fundadores .fundadores-encabezado .flecha-go-up{
+	position:relative;
+}
+.view-id-fundadores .fundadores-encabezado .flecha-go-up a{
+	display:block;
+	width: 52px;
+	height: 52px;
+	background-image: url('../images/totop.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position:absolute;
+	right: 0px;
+	top: -100px;
+}
 .view-id-fundadores .view-content{
 }
 .view-id-fundadores .view-content .views-row{
 	float: left;
-	width: 49%;
+	width: 48%;
 	box-sizing:border-box;
+	margin-bottom: 40px;
 }
 .view-id-fundadores .view-content .views-row-odd{
-	margin-right: 2%;
+	margin-right: 4%;
 }
 .view-id-fundadores .view-content .views-row .fundador-imagen{
 	float: left;
@@ -883,6 +903,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	float: left;
 	width: 50%;
 	box-sizing:border-box;
+	padding-left: 10px;
 }
 .view-id-fundadores .view-content .views-row .fundador-texto .fundador-nombre,
 .view-id-fundadores .view-content .views-row .fundador-texto .fundador-puesto{
@@ -890,7 +911,11 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	font-family: Ubuntu, sans-serif;
 	font-weight: bold;
 	font-size: 20px;
+	line-height: 21px;
 	text-transform: uppercase;	
+}
+.view-id-fundadores .view-content .views-row .fundador-texto .fundador-nombre{
+	margin-bottom: 10px;
 }
 .view-id-fundadores .view-content .views-row .fundador-texto .fundador-puesto{
 	font-weight: normal;
@@ -902,4 +927,35 @@ body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submi
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 21px;
+}
+
+.solidez-liston-proyectos-amarillo{
+	overflow: hidden;
+	background-color: #F6921E;
+	padding: 5px 0px 30px 0px;
+}
+
+.solidez-liston-proyectos-amarillo .solidez-liston-proyectos-amarillo-texto p{
+	color: #FFF;
+	font-family: Ubuntu, sans-serif;
+	font-size: 31px;
+	text-transform: uppercase;	
+	text-align:center;
+	line-height: 37px;	
+}
+.solidez-liston-proyectos-amarillo .solidez-liston-proyectos-amarillo-boton a{
+	display:block;
+  padding: 8px 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;	
+  width: 290px;
+  margin:0 auto;
+  text-align:center;
+  line-height: 23px;
 }

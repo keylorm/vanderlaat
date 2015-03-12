@@ -1585,10 +1585,11 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 }
 
 /* DETALLE */
-.page-node-58{
-}
-.page-node-58 .view-id-imagen_top .views-field-nothing{
+
+.page-node-58 .view-id-imagen_top .views-field-nothing,
+.page-node-59 .view-id-imagen_top .views-field-nothing{
 	margin-top: -134px;
+	position:relative;
 }
 .page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h1,
 .page-node-59.texto-hover-imagen-top .texto-hover-imagen-top-titulo h1{
@@ -1603,19 +1604,33 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	margin: 0 auto;
 	padding-top: 22px;
 }
-.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
+.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-texto,
+.page-node-59 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
 	color: #454547;
 	font-family: Roboto, sans-serif;
 	font-size: 21px;	
 }
-.page-node-58 #block-views-imagen-top-block-1{
+.page-node-58 #block-views-imagen-top-block-1,
+.page-node-59 #block-views-imagen-top-block-1{
 	overflow:hidden; clear:both;
 }
-.page-node-58 .view-id-imagen_top .views-row{
+/*.page-node-58 */.view-id-imagen_top .views-row{
 	height: 455px;
 }
 
-.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p{
+.page-node-58 .flecha-go-down a{
+	display:block;
+	width: 70px;
+	height: 70px;
+	background-image: url('../images/icon_caption.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	position:absolute;
+	right: 10px;
+	top: 50%;
+}
+
+/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p{
 	font-family: Roboto, sans-serif;
 	color: #58595B;
 	font-weight: 300;
@@ -1626,18 +1641,18 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	position:relative;	
 	padding: 0px 65px;
 }
-.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:before {
+/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p:before {
 	content: open-quote;
 	left: 0px;
 	top: 55px;	
 }
-.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:after  {
+/*.page-node-58 .node-proyectos */.field-name-field-frase-entre-comillas p:after  {
 	content: close-quote;
 	right: 0px;
 	bottom: -40px;	
 }
-.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:before,
-.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:after{
+/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p:before,
+/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p:after{
 	color: #454547;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 160px;
@@ -1645,6 +1660,74 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	font-style:normal;
 }
 
-.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p span{
+/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p span{
 	color: #00599C;
 	text-decoration: underline;
+}
+
+.ficha-tecnica{
+}
+
+
+.page-node-58 .below-content{
+	border-top: 1px solid #F1F1F2;
+}
+
+.view-detalle-proyectos h2{
+	color: #58595B;
+	font-family: Ubuntu, sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	padding-top: 30px;	
+}
+
+.view-detalle-proyectos .flexslider{
+	position:relative;
+}
+.view-detalle-proyectos .flex-direction-nav{
+	display:block;
+	width: 1000px;
+	margin: 0 auto;
+	right: 0px;
+	left: 0px;
+	position: absolute;
+	top: 50%;
+}
+.view-detalle-proyectos .flex-direction-nav li a{
+	width: 53px;
+	height: 53px;
+	overflow:hidden; 
+	
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.view-detalle-proyectos .flex-direction-nav li a:before{
+  content: '';
+  margin-left: 100px;
+  height: 53px;	
+}
+
+.view-detalle-proyectos .flex-direction-nav a.flex-prev{
+	background-image: url('../images/prev_slider_2.png');
+}
+.view-detalle-proyectos .flex-direction-nav a.flex-next{
+	background-image: url('../images/next_slider_2.png');
+}
+
+.page-node-58 .flex-control-nav,
+.page-node-59 .flex-control-nav{
+	display: none;
+}
+.view-detalle-proyectos .views-field-field-historia-del-proyecto{
+	padding: 50px 0px 30px 0px;
+}
+.view-detalle-proyectos .field-content p{
+	color: #454547;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 21px;
+	text-align:center;	
+}

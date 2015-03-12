@@ -1,32 +1,24 @@
 
 jQuery(document).ready(function(){
 
+	/*jQuery('#edit-field-categoria-proyecto-tid option[value="All"]').text(jQuery('label[for="edit-field-categoria-proyecto-tid"]').text());
+
+	jQuery('#edit-field-servicio-tid option[value="All"]').text(jQuery('label[for="edit-field-servicio-tid"]').text());
+
+	jQuery('#edit-field-cliente-tid option[value="All"]').text(jQuery('label[for="edit-field-cliente-tid"]').text());*/
+
+
 	
-
-
-	/*jQuery('#edit-field-categoria-proyecto-tid').change(function(){
-		jQuery('input#edit-submit-proyectos').click();
-	});
-	jQuery('#edit-field-servicio-tid').change(function(){
-		jQuery('input#edit-submit-proyectos').click();
-	});
-	jQuery('#edit-field-cliente-tid').change(function(){
-		jQuery('input#edit-submit-proyectos').click();
-	});*/
 });
 
 jQuery( document ).ajaxComplete(function() {
 
-	
-/*
+	/*jQuery('#edit-field-categoria-proyecto-tid option[value="All"]').text(jQuery('label[for="edit-field-categoria-proyecto-tid"]').text());
 
-	jQuery('#edit-field-categoria-proyecto-tid').change(function(){
-		jQuery('input#edit-submit-proyectos').click();
-	});
-	jQuery('#edit-field-servicio-tid').change(function(){
-		jQuery('input#edit-submit-proyectos').click();
-	});
-	jQuery('#edit-field-cliente-tid').change(function(){
-		jQuery('input#edit-submit-proyectos').click();
-	});*/
+	jQuery('#edit-field-servicio-tid option[value="All"]').text(jQuery('label[for="edit-field-servicio-tid"]').text());
+
+	jQuery('#edit-field-cliente-tid option[value="All"]').text(jQuery('label[for="edit-field-cliente-tid"]').text());*/
+
+
+	
 });

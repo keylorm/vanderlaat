@@ -1583,3 +1583,68 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	background-color: #00599C;
 	color: #FFF;
 }
+
+/* DETALLE */
+.page-node-58{
+}
+.page-node-58 .view-id-imagen_top .views-field-nothing{
+	margin-top: -134px;
+}
+.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h1,
+.page-node-59.texto-hover-imagen-top .texto-hover-imagen-top-titulo h1{
+	font-family: Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size: 33px;
+	color: #00599C;
+	line-height: 50px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 22px;
+}
+.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
+	color: #454547;
+	font-family: Roboto, sans-serif;
+	font-size: 21px;	
+}
+.page-node-58 #block-views-imagen-top-block-1{
+	overflow:hidden; clear:both;
+}
+.page-node-58 .view-id-imagen_top .views-row{
+	height: 455px;
+}
+
+.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p{
+	font-family: Roboto, sans-serif;
+	color: #58595B;
+	font-weight: 300;
+	font-size: 19px;
+	text-align: center;
+	font-style:italic;
+	line-height: 30px;
+	position:relative;	
+	padding: 0px 65px;
+}
+.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:before {
+	content: open-quote;
+	left: 0px;
+	top: 55px;	
+}
+.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:after  {
+	content: close-quote;
+	right: 0px;
+	bottom: -40px;	
+}
+.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:before,
+.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p:after{
+	color: #454547;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 160px;
+	position:absolute;
+	font-style:normal;
+}
+
+.page-node-58 .node-proyectos .field-name-field-frase-entre-comillas p span{
+	color: #00599C;
+	text-decoration: underline;

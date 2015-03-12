@@ -12,6 +12,7 @@ html{
   max-width: 1000px !important;
   margin: 0 auto;
 }
+
 .grid-1280 .pane-content,
 .grid-1280 .view-content{
   max-width: 1280px !important;
@@ -775,10 +776,6 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	padding-top: 20px;
 }
 
-.page-node-22 #page-title,
-.page-node-23 #page-title{
-	display: none;
-}
 .main .field-name-body p{
 	font-family: Roboto, sans-serif;
 	color: #58595B;
@@ -1168,10 +1165,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 
 
 /* QUE HACEMOS */
-.page-node-54 #page-title,
-.page-node-55 #page-title{
-	display: none;
-}
+
 .page-node-54 .main .field-name-body p,
 .page-node-55 .main .field-name-body p{
 	font-size: 21px;
@@ -1345,7 +1339,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 #block-views-proyectos-block-1 h2{
 	display: none;
 }
-#block-views-proyectos-block .bloque-proyectos-encabezado h3{
+#block-views-proyectos-block .bloque-proyectos-encabezado h3,
+#block-views-proyectos-block-1 .bloque-proyectos-encabezado h3{
 	color: #004C89;
 	font-family: Ubuntu, sans-serif;
 	font-weight: bold;
@@ -1353,26 +1348,30 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	line-height: 90px;
 	text-align:center;
 }
-#block-views-proyectos-block .view-proyectos .views-row{
+.view-proyectos .view-content{
+	overflow: hidden;
+}
+.view-proyectos .views-row{
 	display:inline-block;
 	position: relative;
 	width: 31%;
 	min-height: 366px;
-	padding: 30px;
 	border-top: 4px solid #004c89;
 	background-color: #f1f1f2;
 	float: left;
 	margin-right: 30px;
-	box-sizing: border-box;	
+	box-sizing: border-box;
+	margin-bottom: 40px;
 }
-#block-views-proyectos-block .view-proyectos .views-row.views-row-last{
+#block-views-proyectos-block .view-proyectos .views-row.views-row-last,
+#block-views-proyectos-block-1 .view-proyectos .views-row.views-row-last{
 	margin-right: 0px;
 }
 
-#block-views-proyectos-block .view-proyectos .view-footer{
-	margin: 40px 0px;
+.view-proyectos .view-footer{
+	margin: 0px 0px 40px 0px;
 }
-#block-views-proyectos-block .view-proyectos .view-footer a{
+.view-proyectos .view-footer a{
 	border: 2px solid #404041;
 	border-radius: 4px;
 	font-family: Ubuntu, sans-serif;
@@ -1382,14 +1381,14 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	text-decoration: none;
 	text-transform: uppercase;
 	display: block;
-	max-width: 290px;
+	max-width: 300px;
 	padding: 10px 0px;
 	color: #404041;
 	text-align: center;
 	margin: 0 auto;	
 }
 
-#block-views-proyectos-block .view-proyectos .views-row .views-field-path a{
+.view-proyectos .views-row .views-field-path a{
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -1405,44 +1404,182 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
   text-indent: 50px;
 }
 
-/*********/
-.view-blog .views-row{
-  position: relative;
-  width: 31%;
-  min-height: 366px;
-  padding: 30px;
-  border-top: 4px solid #004c89;
-  background-color: #f1f1f2;
-  float: left;
-  margin-right: 30px;
-  box-sizing:border-box;	
+.view-proyectos .views-row .views-field-title a{
+	display: block;
+	color: #004C89;
+	text-decoration: none;
+	font-family: Roboto, sans-serif;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	padding:0px 30px;	
+}
+.view-proyectos .views-row .views-field-field-ubicacion{
+	color: #58595B;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	padding:0px 30px;	
 }
 
-.view-blog .views-row .views-field-title a{
-  display: block;
-  font-family: Ubuntu, sans-serif;
-  color: #00599c;
-  font-size: 27px;
-  line-height: 32px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-decoration: none;	
+/*********/
+
+/* Obras que inspiran */
+#page-title{
+	font-family: Ubuntu, sans-serif;
+	font-weight: 300;
+	font-size: 34px;
+	color: #00599C;
+	line-height: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align:center;
+	margin: 10px 0px;
 }
-.view-blog .views-row .views-field-created{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: Ubuntu, sans-serif;
-  color: #6d6e70;
-  font-size: 19px;
-  font-style: italic;
-  font-weight: 400;	
+.page-node-63 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+.page-node-64 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+	font-size: 33px;
+	letter-spacing: 0px;
+	width: 860px;
+	line-height: 30px;
+	padding-top: 35px;
 }
-.view-blog .views-row .views-field-body p{
-  margin-top: 25px;
-  font-family: Roboto, sans-serif;
-  color: #58595b;
-  font-size: 17px;
-  line-height: 22px;
-  font-weight: 400;
-  text-align: justify;	
+.page-node-63 .field-name-body h3,
+.page-node-64 .field-name-body h3{
+	color: #00599C;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	line-height: 16px;
+	font-weight: 300;
+	text-align:center;	
+}
+.page-node-63 .main .field-name-body p,
+.page-node-64 .main .field-name-body p{
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.page-node-63 .view-proyectos .views-row-3,
+.page-node-63 .view-proyectos .views-row-6,
+.page-node-63 .view-proyectos .views-row-9,
+.page-node-63 .view-proyectos .views-row-12,
+.page-node-63 .view-proyectos .views-row-15,
+.page-node-63 .view-proyectos .views-row-18,
+.page-node-63 .view-proyectos .views-row-21,
+.page-node-63 .view-proyectos .views-row-24,
+
+.page-node-64 .view-proyectos .views-row-3,
+.page-node-64 .view-proyectos .views-row-6,
+.page-node-64 .view-proyectos .views-row-9,
+.page-node-64 .view-proyectos .views-row-12,
+.page-node-64 .view-proyectos .views-row-15,
+.page-node-64 .view-proyectos .views-row-18,
+.page-node-64 .view-proyectos .views-row-21,
+.page-node-64 .view-proyectos .views-row-24{
+	margin-right: 0px;
+}
+
+.page-node-63 .view-filters,
+.page-node-64 .view-filters{
+	width: 580px;
+	margin: 0 auto;
+	clear:both;
+	overflow: hidden;
+	border: 1px solid #6F7072;
+	border-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-bottom: 50px;
+}
+.label-filtro{
+	float:left;
+	background-color: #E6E7E8;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align:center;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #6F7072;
+}
+#views-exposed-form-proyectos-block-2,
+#views-exposed-form-proyectos-block-3{
+	float:left;
+	padding-left: 20px;
+	position:relative;
+}
+#views-exposed-form-proyectos-block-2 label,
+#views-exposed-form-proyectos-block-3 label{
+	color: #6F7072;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;	
+}
+#views-exposed-form-proyectos-block-2 select,
+#views-exposed-form-proyectos-block-3 select{
+	width: 115px;
+	border: none;
+}
+#views-exposed-form-proyectos-block-2 .views-exposed-widgets,
+#views-exposed-form-proyectos-block-3 .views-exposed-widgets{
+	margin-bottom: 0px;
+}
+#views-exposed-form-proyectos-block-2 .views-exposed-widget,
+#views-exposed-form-proyectos-block-3 .views-exposed-widget{
+	border-right: 1px solid #6F7072;
+	margin-bottom: 0px;
+	padding: 0px 15px;
+}
+#views-exposed-form-proyectos-block-2 #edit-field-cliente-tid-wrapper,
+#views-exposed-form-proyectos-block-3 #edit-field-cliente-tid-wrapper{
+	border-right: none;
+}
+#views-exposed-form-proyectos-block-2 .views-submit-button,
+#views-exposed-form-proyectos-block-3 .views-submit-button{
+	position:absolute;
+	border:none;
+	right: -30px;
+	top: 20px;
+}
+.page-node-63 .item-list .pager,
+.page-node-64 .item-list .pager{
+	height: 60px;
+}
+.page-node-63 .item-list .pager li,
+.page-node-64 .item-list .pager li{
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	color: #004C89;
+	margin: 0px; padding: 0px;
+	position:relative;
+
+}
+.page-node-63 .item-list .pager li .ajax-progress,
+.page-node-64 .item-list .pager li .ajax-progress{
+	position:absolute;
+	top: -28px;
+	right:0px;
+}
+.page-node-63 .item-list .pager li.pager-current,
+.page-node-64 .item-list .pager li.pager-current{
+	background-color: #00599C;
+	color: #FFF;
+	padding: 10px;	
+}
+.page-node-63 .item-list .pager li a,
+.page-node-64 .item-list .pager li a{
+	color: #58595B;
+	padding: 10px;
+	border: 1px solid #BBBDBF;	
+	
+	font-weight: normal;
+	text-decoration: none;	
+}
+.page-node-63 .item-list .pager li a:hover,
+.page-node-64 .item-list .pager li a:hover{
+	background-color: #00599C;
+	color: #FFF;
 }

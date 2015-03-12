@@ -1513,6 +1513,10 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 #views-exposed-form-proyectos-block-3 select{
 	width: 115px;
 	border: none;
+	color: #6F7072;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14px;	
 }
 #views-exposed-form-proyectos-block-2 .views-exposed-widgets,
 #views-exposed-form-proyectos-block-3 .views-exposed-widgets{
@@ -1782,7 +1786,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	text-align: center;
 	margin: 50px 0px;
 }
-.page-node-58 #block-views-proyectos-block-4{
+.page-node-58 #block-views-proyectos-block-4,
+.page-node-59 #block-views-proyectos-block-5{
 	background-color: #F1F1F2;
 	overflow:hidden;
 	clear:both;

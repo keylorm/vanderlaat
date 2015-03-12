@@ -1586,13 +1586,11 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 
 /* DETALLE */
 
-.page-node-58 .view-id-imagen_top .views-field-nothing,
-.page-node-59 .view-id-imagen_top .views-field-nothing{
+.node-type-proyectos .view-id-imagen_top .views-field-nothing{
 	margin-top: -134px;
 	position:relative;
 }
-.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h1,
-.page-node-59.texto-hover-imagen-top .texto-hover-imagen-top-titulo h1{
+.node-type-proyectos .texto-hover-imagen-top .texto-hover-imagen-top-titulo h1{
 	font-family: Ubuntu, sans-serif;
 	font-weight: bold;
 	font-size: 33px;
@@ -1604,21 +1602,19 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	margin: 0 auto;
 	padding-top: 22px;
 }
-.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-texto,
-.page-node-59 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
+.node-type-proyectos .texto-hover-imagen-top .texto-hover-imagen-top-texto{
 	color: #454547;
 	font-family: Roboto, sans-serif;
 	font-size: 21px;	
 }
-.page-node-58 #block-views-imagen-top-block-1,
-.page-node-59 #block-views-imagen-top-block-1{
+.node-type-proyectos #block-views-imagen-top-block-1{
 	overflow:hidden; clear:both;
 }
-/*.page-node-58 */.view-id-imagen_top .views-row{
+.view-id-imagen_top .views-row{
 	height: 455px;
 }
 
-.page-node-58 .flecha-go-down a{
+.node-type-proyectos .flecha-go-down a{
 	display:block;
 	width: 70px;
 	height: 70px;
@@ -1626,11 +1622,11 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	background-repeat:no-repeat;
 	background-position:center;
 	position:absolute;
-	right: 10px;
-	top: 50%;
+	right: 30px;
+	top: 25%;
 }
 
-/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p{
+.node-proyectos .field-name-field-frase-entre-comillas p{
 	font-family: Roboto, sans-serif;
 	color: #58595B;
 	font-weight: 300;
@@ -1641,35 +1637,89 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	position:relative;	
 	padding: 0px 65px;
 }
-/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p:before {
+.node-proyectos .field-name-field-frase-entre-comillas p:before {
 	content: open-quote;
 	left: 0px;
 	top: 55px;	
 }
-/*.page-node-58 .node-proyectos */.field-name-field-frase-entre-comillas p:after  {
+.field-name-field-frase-entre-comillas p:after  {
 	content: close-quote;
 	right: 0px;
 	bottom: -40px;	
 }
-/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p:before,
-/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p:after{
+.node-proyectos .field-name-field-frase-entre-comillas p:before,
+.node-proyectos .field-name-field-frase-entre-comillas p:after{
 	color: #454547;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 160px;
 	position:absolute;
 	font-style:normal;
 }
-
-/*.page-node-58 */.node-proyectos .field-name-field-frase-entre-comillas p span{
+.node-proyectos .field-name-field-frase-entre-comillas{
+	margin-bottom: 130px;
+}
+.node-proyectos .field-name-field-frase-entre-comillas p span{
 	color: #00599C;
 	text-decoration: underline;
 }
 
-.ficha-tecnica{
+.titulo-ficha-tecnica{
+	margin-left: 5px;
+	width: 215px;
+	margin-bottom: -38px;	
+}
+.titulo-ficha-tecnica h2{
+	font-family: Ubuntu, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #00599C;
+	margin-bottom: 0px;	
 }
 
+.ficha-tecnica{
+    border-spacing: 5px;
+    border-collapse: separate;
+	margin-bottom: 60px;	
+}
 
-.page-node-58 .below-content{
+.ficha-tecnica tr td{
+	padding: 13px 15px;
+	background-color: #F1F1F2;
+	color: #454547;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 21px;	
+}
+.ficha-tecnica tr td strong{
+	font-weight: 500;	
+}
+
+.go-down-azul{
+	display:block;
+	width: 350px;
+	height: 60px;
+	background-color: #00599C;
+	float:right;
+	font-family: Ubuntu, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: 1px;
+	padding-left: 20px;
+	color: #FFF;
+	text-align:left;
+	text-decoration: none;
+	background-image: url('../images/historia-proyecto.png');
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin: 0px 5px -5px 0px;
+}
+
+.node-type-proyectos .below-content{
 	border-top: 1px solid #F1F1F2;
 }
 

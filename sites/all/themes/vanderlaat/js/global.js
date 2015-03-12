@@ -1,11 +1,17 @@
 
 jQuery(document).ready(function(){
 
-	/*jQuery('#edit-field-categoria-proyecto-tid option[value="All"]').text(jQuery('label[for="edit-field-categoria-proyecto-tid"]').text());
+	jQuery('body.i18n-es #edit-field-categoria-proyecto-tid option[value="All"]').text("- Todos -");
 
-	jQuery('#edit-field-servicio-tid option[value="All"]').text(jQuery('label[for="edit-field-servicio-tid"]').text());
+	jQuery('body.i18n-es #edit-field-servicio-tid option[value="All"]').text(jQuery("- Todos -");
 
-	jQuery('#edit-field-cliente-tid option[value="All"]').text(jQuery('label[for="edit-field-cliente-tid"]').text());*/
+	jQuery('body.i18n-es #edit-field-cliente-tid option[value="All"]').text(jQuery("- Todos -");
+
+	jQuery('body.i18n-en #edit-field-categoria-proyecto-tid option[value="All"]').text("- All -");
+
+	jQuery('body.i18n-en #edit-field-servicio-tid option[value="All"]').text(jQuery("- All -");
+
+	jQuery('body.i18n-en #edit-field-cliente-tid option[value="All"]').text(jQuery("- All -");
 
 
 	
@@ -13,11 +19,17 @@ jQuery(document).ready(function(){
 
 jQuery( document ).ajaxComplete(function() {
 
-	/*jQuery('#edit-field-categoria-proyecto-tid option[value="All"]').text(jQuery('label[for="edit-field-categoria-proyecto-tid"]').text());
+	jQuery('body.i18n-es #edit-field-categoria-proyecto-tid option[value="All"]').text("- Todos -");
 
-	jQuery('#edit-field-servicio-tid option[value="All"]').text(jQuery('label[for="edit-field-servicio-tid"]').text());
+	jQuery('body.i18n-es #edit-field-servicio-tid option[value="All"]').text(jQuery("- Todos -");
 
-	jQuery('#edit-field-cliente-tid option[value="All"]').text(jQuery('label[for="edit-field-cliente-tid"]').text());*/
+	jQuery('body.i18n-es #edit-field-cliente-tid option[value="All"]').text(jQuery("- Todos -");
+
+	jQuery('body.i18n-en #edit-field-categoria-proyecto-tid option[value="All"]').text("- All -");
+
+	jQuery('body.i18n-en #edit-field-servicio-tid option[value="All"]').text(jQuery("- All -");
+
+	jQuery('body.i18n-en #edit-field-cliente-tid option[value="All"]').text(jQuery("- All -");
 
 
 	

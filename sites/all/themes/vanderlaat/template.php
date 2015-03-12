@@ -137,3 +137,9 @@ function vanderlaat_menu_link($variables) {
 //dvm($variables['element']);
   return theme_menu_link($variables);
 }
+function vanderlaat_preprocess_page(&$vars, $hook) {
+  if (isset($vars['node'])) {
+    // If the node type is "blog_madness" the template suggestion will be "page--blog-madness.tpl.php".
+    $vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type;
+  }
+}

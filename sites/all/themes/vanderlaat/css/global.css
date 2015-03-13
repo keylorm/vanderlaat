@@ -1475,13 +1475,12 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	line-height: 30px;
 	padding-top: 35px;
 }
-<<<<<<< HEAD
+
 .page-node-58 .field-name-body h3,
 .page-node-59 .field-name-body h3{
-=======
-/*.page-node-63 .field-name-body h3,
-.page-node-64 .field-name-body h3{
->>>>>>> e0d2c2a90e1683a59c4fc6ac056f5ea66ed5e603
+
+
+
 	color: #00599C;
 	text-transform: uppercase;
 	font-family: Roboto, sans-serif;
@@ -1489,15 +1488,11 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	line-height: 16px;
 	font-weight: 300;
 	text-align:center;	
-<<<<<<< HEAD
+
 }
 .page-node-58 .main .field-name-body p,
 .page-node-59 .main .field-name-body p{
-=======
-}*/
-.page-node-63 .main .field-name-body p,
-.page-node-64 .main .field-name-body p{
->>>>>>> e0d2c2a90e1683a59c4fc6ac056f5ea66ed5e603
+
 	font-size: 21px;
 	line-height: 25px;
 }

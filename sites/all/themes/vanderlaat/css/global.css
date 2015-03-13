@@ -1475,8 +1475,13 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	line-height: 30px;
 	padding-top: 35px;
 }
+<<<<<<< HEAD
 .page-node-58 .field-name-body h3,
 .page-node-59 .field-name-body h3{
+=======
+/*.page-node-63 .field-name-body h3,
+.page-node-64 .field-name-body h3{
+>>>>>>> e0d2c2a90e1683a59c4fc6ac056f5ea66ed5e603
 	color: #00599C;
 	text-transform: uppercase;
 	font-family: Roboto, sans-serif;
@@ -1484,9 +1489,15 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	line-height: 16px;
 	font-weight: 300;
 	text-align:center;	
+<<<<<<< HEAD
 }
 .page-node-58 .main .field-name-body p,
 .page-node-59 .main .field-name-body p{
+=======
+}*/
+.page-node-63 .main .field-name-body p,
+.page-node-64 .main .field-name-body p{
+>>>>>>> e0d2c2a90e1683a59c4fc6ac056f5ea66ed5e603
 	font-size: 21px;
 	line-height: 25px;
 }
@@ -1792,12 +1803,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	background-image: url('../images/next_slider_2.png');
 }
 
-<<<<<<< HEAD
-.view-detalle-proyectos .flex-control-nav{
-=======
-/*.page-node-58 */
+
 .node-type-proyectos .flex-control-nav{
->>>>>>> origin/master
 	display: none;
 }
 .view-detalle-proyectos .views-field-field-historia-del-proyecto{
@@ -1834,4 +1841,150 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 }
 .node-type-proyectos .view-proyectos .views-row:hover{
 	background-color: #004C89;
+}
+
+/* TRABAJEMOS JUNTOS */
+
+.node-type-page .field-name-body h3{
+	color: #00599C;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: 300;
+	text-align: center;
+}
+.page-node-73 .main .field-name-body p,
+.page-node-74 .main .field-name-body p{
+	font-size: 21px;
+}
+#block-block-22,
+#block-block-23,
+#block-block-24,
+
+#block-block-25,
+
+#block-webform-client-block-75,
+#block-webform-client-block-76{
+	margin: 50px 0px;
+}
+#block-block-22,
+#block-block-23,
+#block-block-24,
+
+#block-block-25{
+	float:left;
+}
+
+.trabaje-con-nosotros-info,
+.trabaje-con-nosotros-info a{
+	color: #404041;
+	font-family: Roboto, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 23px;	
+}
+.trabaje-con-nosotros-info div{
+	display:block;
+	padding-left: 95px;
+	height: 70px;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+.trabaje-con-nosotros-info .direccion{
+	background-image: url('../images/direccion.png');
+	background-repeat:no-repeat;
+	background-position: left center;
+}
+.trabaje-con-nosotros-info .email{
+	background-image: url('../images/emails.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+}
+.trabaje-con-nosotros-info .telefono{
+	background-image: url('../images/telefonos.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+}
+.trabaje-con-nosotros-info .codigo-postal{
+	background-image: url('../images/postal.png');
+	background-repeat:no-repeat;
+	background-position: left center;	
+}
+
+#block-webform-client-block-75,
+#block-webform-client-block-76{
+	float:right;
+}
+
+#block-webform-client-block-75.block-webform,
+#block-webform-client-block-76.block-webform{
+  width: 460px;
+  padding: 25px;
+  background-color: #f1f1f2;
+}
+#block-webform-client-block-75.block-webform h2,
+#block-webform-client-block-76.block-webform h2 {
+  margin-bottom: 15px;
+  font-family: Ubuntu, sans-serif;
+  color: #00599c;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  margin-top: 0px;
+}
+#block-webform-client-block-75 .webform-submit,
+#block-webform-client-block-76 .webform-submit {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #00599c;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+#block-webform-client-block-75 .form-text,
+#block-webform-client-block-76 .form-text {
+	width: 410px;
+  height: 53px;
+  margin-bottom: 20px;
+  border: 0px solid black;
+  font-family: Roboto, sans-serif;
+  color: #404041;
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+#block-webform-client-block-75 .form-textarea,
+#block-webform-client-block-76 .form-textarea {
+  height: 220px;
+  margin-bottom: 20px;
+  border: 0px solid black;
+  font-family: Roboto, sans-serif;
+  color: #404041;
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* CONACTENOS */
+
+.page-node-77.node-type-page .field-name-body h3{
+	text-transform:none;
+}
+.page-node-77 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+	padding-top: 42px;
+}
+.page-node-77 .main .field-name-body p{
+	font-size: 21px;
+	line-height: 30px;
 }

@@ -714,15 +714,33 @@ body .footer .footer-second-wrapper .redes-logos-footer{
 	float:right;
 }
 
+body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-component h3,
+body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-component h4,
+body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-component h3,
+body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-component h4,
+
+body .footer .footer-second-wrapper #block-webform-client-block-1--2 .webform-component h3,
+body .footer .footer-second-wrapper #block-webform-client-block-1--2 .webform-component h4,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-component h3,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-component h4{
+	display: none;
+}
+
 body .footer .footer-second-wrapper #block-webform-client-block-1,
-body .footer .footer-second-wrapper #block-webform-client-block-2{
+body .footer .footer-second-wrapper #block-webform-client-block-2,
+
+body .footer .footer-second-wrapper #block-webform-client-block-1--2,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2
+{
 	/*float: right;
 	margin-right:20px;*/
 	margin-top: -5px;
 }
 
 body .footer .footer-second-wrapper #block-webform-client-block-1 .email,
-body .footer .footer-second-wrapper #block-webform-client-block-2 .email{
+body .footer .footer-second-wrapper #block-webform-client-block-2 .email,
+body .footer .footer-second-wrapper #block-webform-client-block-1--2 .email,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .email{
 	border: none;
 	height: 33px;
 	color: #6D6E70;
@@ -733,21 +751,28 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .email{
 	float: left;
 	display:block;
 }
-body .footer .footer-second-wrapper #block-webform-client-block-2 .email{
+body .footer .footer-second-wrapper #block-webform-client-block-2 .email,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .email{
 	width: 158px;
 }
 body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-component-email,
-body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-component-email{
+body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-component-email,
+body .footer .footer-second-wrapper #block-webform-client-block-1--2 .webform-component-email,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-component-email{
 	margin-top: 2px;
 }
 body .footer .footer-second-wrapper #block-webform-client-block-1 .form-actions,
-body .footer .footer-second-wrapper #block-webform-client-block-2 .form-actions{
+body .footer .footer-second-wrapper #block-webform-client-block-2 .form-actions,
+body .footer .footer-second-wrapper #block-webform-client-block-1--2 .form-actions,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .form-actions{
 	float:left;
 	margin: 0px;
 	margin-left: 5px;
 }
 body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-submit,
-body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submit{
+body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submit,
+body .footer .footer-second-wrapper #block-webform-client-block-1--2 .webform-submit,
+body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-submit{
 	background-color: transparent;
 	border-radius: 3px;
 	border: 2px solid #FFF;
@@ -1849,8 +1874,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	font-weight: 300;
 	text-align: center;
 }
-.page-node-73 .main .field-name-body p,
-.page-node-74 .main .field-name-body p{
+.page-node-62 .main .field-name-body p,
+.page-node-63 .main .field-name-body p{
 	font-size: 21px;
 }
 #block-block-22,
@@ -1859,8 +1884,10 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 
 #block-block-25,
 
-#block-webform-client-block-75,
-#block-webform-client-block-76{
+#block-webform-client-block-60,
+#block-webform-client-block-61,
+#block-webform-client-block-64,
+#block-webform-client-block-65{
 	margin: 50px 0px;
 }
 #block-block-22,
@@ -1885,7 +1912,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	padding-left: 95px;
 	height: 70px;
 	padding-top: 15px;
-	margin-bottom: 10px;
+	margin-bottom: 18px;
 }
 .trabaje-con-nosotros-info .direccion{
 	background-image: url('../images/direccion.png');
@@ -1905,22 +1932,23 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 .trabaje-con-nosotros-info .codigo-postal{
 	background-image: url('../images/postal.png');
 	background-repeat:no-repeat;
-	background-position: left center;	
+	background-position: left center;
+	margin-bottom: 70px;	
 }
 
-#block-webform-client-block-75,
-#block-webform-client-block-76{
+#block-webform-client-block-60,
+#block-webform-client-block-61{
 	float:right;
 }
 
-#block-webform-client-block-75.block-webform,
-#block-webform-client-block-76.block-webform{
+#block-webform-client-block-60.block-webform,
+#block-webform-client-block-61.block-webform{
   width: 460px;
   padding: 25px;
   background-color: #f1f1f2;
 }
-#block-webform-client-block-75.block-webform h2,
-#block-webform-client-block-76.block-webform h2 {
+#block-webform-client-block-60.block-webform h2,
+#block-webform-client-block-61.block-webform h2 {
   margin-bottom: 15px;
   font-family: Ubuntu, sans-serif;
   color: #00599c;
@@ -1933,8 +1961,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
   padding: 0px 30px;
   margin-top: 0px;
 }
-#block-webform-client-block-75 .webform-submit,
-#block-webform-client-block-76 .webform-submit {
+#block-webform-client-block-60 .webform-submit,
+#block-webform-client-block-61 .webform-submit {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1946,11 +1974,11 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
   text-transform: uppercase;
   border: none;
 }
-#block-webform-client-block-75 .form-text,
-#block-webform-client-block-76 .form-text {
+#block-webform-client-block-60 .form-text,
+#block-webform-client-block-61 .form-text {
 	width: 410px;
   height: 53px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 0px solid black;
   font-family: Roboto, sans-serif;
   color: #404041;
@@ -1958,8 +1986,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
   font-weight: 300;
   padding-left: 15px;
 }
-#block-webform-client-block-75 .form-textarea,
-#block-webform-client-block-76 .form-textarea {
+#block-webform-client-block-60 .form-textarea,
+#block-webform-client-block-61 .form-textarea {
   height: 220px;
   margin-bottom: 20px;
   border: 0px solid black;
@@ -1973,13 +2001,81 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 
 /* CONACTENOS */
 
-.page-node-77.node-type-page .field-name-body h3{
+.page-node-66.node-type-page .field-name-body h3,
+.page-node-67.node-type-page .field-name-body h3{
 	text-transform:none;
 }
-.page-node-77 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+.page-node-66 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+.page-node-67 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
 	padding-top: 42px;
 }
-.page-node-77 .main .field-name-body p{
+.page-node-66 .main .field-name-body p,
+.page-node-67 .main .field-name-body p{
 	font-size: 21px;
 	line-height: 30px;
 }
+
+#block-webform-client-block-64,
+#block-webform-client-block-65{
+	float:right;
+}
+
+#block-webform-client-block-64.block-webform,
+#block-webform-client-block-65.block-webform{
+  width: 460px;
+  padding: 25px;
+  background-color: #f1f1f2;
+}
+#block-webform-client-block-64.block-webform h2,
+#block-webform-client-block-65.block-webform h2 {
+  margin-bottom: 15px;
+  font-family: Ubuntu, sans-serif;
+  color: #00599c;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  margin-top: 0px;
+}
+#block-webform-client-block-64 .webform-submit,
+#block-webform-client-block-65 .webform-submit {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #00599c;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+#block-webform-client-block-64 .form-text,
+#block-webform-client-block-65 .form-text {
+	width: 410px;
+  height: 53px;
+  margin-bottom: 0px;
+  border: 0px solid black;
+  font-family: Roboto, sans-serif;
+  color: #404041;
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+#block-webform-client-block-64 .form-textarea,
+#block-webform-client-block-65 .form-textarea {
+  height: 220px;
+  margin-bottom: 20px;
+  border: 0px solid black;
+  font-family: Roboto, sans-serif;
+  color: #404041;
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* BLOG */

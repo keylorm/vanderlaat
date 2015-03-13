@@ -111,6 +111,16 @@
     </div> <!-- /.section, /#sidebar-second -->
   <?php endif; ?>
 </div>
+<?php if ($page['below_content_sidebar_first']||$page['below_content_sidebar_second']): ?>
+  <section class="below-content-sidebar">
+    <div class="below-content-left">
+      <?php print render($page['below_content_sidebar_first']); ?>
+    </div>
+    <div class="below-content-right">
+      <?php print render($page['below_content_sidebar_second']); ?>
+    </div>
+  </section>
+<?php endif; // end Below Content ?>
 
 <?php if ($page['below_content']): ?>
   <section class="below-content">

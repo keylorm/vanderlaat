@@ -75,29 +75,66 @@
   <?php if ($page['highlighted']): ?>
     <?php print render($page['highlighted']); ?>
   <?php endif; ?>
+      <?php if ($page['top_content']): ?>
+        <div id="top-content" class="">
+          <?php print render($title_prefix); ?>
+          <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
+          <?php print render($title_suffix); ?>
 
-    <a id="main-content"></a>
-    <div class="main" role="main">
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-      <?php print render($title_suffix); ?>
+          <?php if ($tabs): ?>
+            <?php print render($tabs); ?>
 
-      <?php if ($tabs): ?>
-        <?php print render($tabs); ?>
+          <?php endif; ?>
 
+          <?php print render($page['help']); ?>
+
+          <?php if ($action_links): ?>
+            <ul class="action-links">
+              <?php print render($action_links); ?>
+            </ul>
+          <?php endif; ?>
+
+          <?php print render($page['top_content']); ?>
+
+
+        </div> 
+
+        <a id="main-content"></a>
+        <div class="main" role="main"> 
+
+          
+          
+
+          <?php print render($page['content']); ?>
+
+        </div>
+      <?php else: ?>
+          <a id="main-content"></a>
+          <div class="main" role="main">
+            <?php print render($title_prefix); ?>
+            <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
+            <?php print render($title_suffix); ?>
+
+            <?php if ($tabs): ?>
+              <?php print render($tabs); ?>
+
+            <?php endif; ?>
+
+            <?php print render($page['help']); ?>
+
+            <?php if ($action_links): ?>
+              <ul class="action-links">
+                <?php print render($action_links); ?>
+              </ul>
+            <?php endif; ?>
+            
+
+            <?php print render($page['content']); ?>
+
+          </div>
       <?php endif; ?>
-
-      <?php print render($page['help']); ?>
-
-      <?php if ($action_links): ?>
-        <ul class="action-links">
-          <?php print render($action_links); ?>
-        </ul>
-      <?php endif; ?>
-
-      <?php print render($page['content']); ?>
-
-    </div>
+  
+    
 
   <?php if ($page['sidebar_first']): ?>
     <div id="sidebar-first" class="">
@@ -111,16 +148,7 @@
     </div> <!-- /.section, /#sidebar-second -->
   <?php endif; ?>
 </div>
-<?php if ($page['below_content_sidebar_first']||$page['below_content_sidebar_second']): ?>
-  <section class="below-content-sidebar">
-    <div class="below-content-left">
-      <?php print render($page['below_content_sidebar_first']); ?>
-    </div>
-    <div class="below-content-right">
-      <?php print render($page['below_content_sidebar_second']); ?>
-    </div>
-  </section>
-<?php endif; // end Below Content ?>
+
 
 <?php if ($page['below_content']): ?>
   <section class="below-content">

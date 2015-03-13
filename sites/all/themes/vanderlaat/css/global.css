@@ -1166,20 +1166,20 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 
 /* QUE HACEMOS */
 
-.page-node-54 .main .field-name-body p,
-.page-node-55 .main .field-name-body p{
+.page-node-50 .main .field-name-body p,
+.page-node-51 .main .field-name-body p{
 	font-size: 21px;
 }
-.page-node-54 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
-.page-node-55 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+.page-node-50 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+.page-node-51 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
 	width: 700px;
 	font-size: 32px;
 	line-height: 31px;
 	letter-spacing: 0px;
 	padding-top: 18px;
 }
-.page-node-54 .texto-hover-imagen-top .texto-hover-imagen-top-texto,
-.page-node-55 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
+.page-node-50 .texto-hover-imagen-top .texto-hover-imagen-top-texto,
+.page-node-51 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
 	font-family: Ubuntu, sans-serif;
 	font-weight: bold;
 	font-size: 23px;
@@ -1187,9 +1187,9 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	letter-spacing: 0px;
 	text-transform: uppercase;	
 }
-.page-node-54 .submenu-list li a,
-.page-node-55 .submenu-list li a{
-	padding: 20px 18px;
+.page-node-50 .submenu-list li a,
+.page-node-51 .submenu-list li a{
+	padding: 20px 17px;
 }
 
 #block-views-servicios-block-1 .view-content .views-row,
@@ -1438,16 +1438,16 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	text-align:center;
 	margin: 10px 0px;
 }
-.page-node-63 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
-.page-node-64 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+.page-node-59 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
 	font-size: 33px;
 	letter-spacing: 0px;
 	width: 860px;
 	line-height: 30px;
 	padding-top: 35px;
 }
-.page-node-63 .field-name-body h3,
-.page-node-64 .field-name-body h3{
+.page-node-58 .field-name-body h3,
+.page-node-59 .field-name-body h3{
 	color: #00599C;
 	text-transform: uppercase;
 	font-family: Roboto, sans-serif;
@@ -1456,8 +1456,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	font-weight: 300;
 	text-align:center;	
 }
-.page-node-63 .main .field-name-body p,
-.page-node-64 .main .field-name-body p{
+.page-node-58 .main .field-name-body p,
+.page-node-59 .main .field-name-body p{
 	font-size: 21px;
 	line-height: 25px;
 }
@@ -1473,8 +1473,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	margin-right: 0px;
 }
 
-.page-node-63 .view-filters,
-.page-node-64 .view-filters{
+.page-node-58 .view-filters,
+.page-node-59 .view-filters{
 	width: 580px;
 	margin: 0 auto;
 	clear:both;
@@ -1539,12 +1539,12 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	right: -30px;
 	top: 20px;
 }
-.page-node-63 .item-list .pager,
-.page-node-64 .item-list .pager{
+.page-node-58 .item-list .pager,
+.page-node-59 .item-list .pager{
 	height: 60px;
 }
-.page-node-63 .item-list .pager li,
-.page-node-64 .item-list .pager li{
+.page-node-58 .item-list .pager li,
+.page-node-59 .item-list .pager li{
 	font-family: Roboto, sans-serif;
 	font-size: 15px;
 	color: #004C89;
@@ -1552,20 +1552,20 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	position:relative;
 
 }
-.page-node-63 .item-list .pager li .ajax-progress,
-.page-node-64 .item-list .pager li .ajax-progress{
+.page-node-58 .item-list .pager li .ajax-progress,
+.page-node-59 .item-list .pager li .ajax-progress{
 	position:absolute;
 	top: -28px;
 	right:0px;
 }
-.page-node-63 .item-list .pager li.pager-current,
-.page-node-64 .item-list .pager li.pager-current{
+.page-node-58 .item-list .pager li.pager-current,
+.page-node-59 .item-list .pager li.pager-current{
 	background-color: #00599C;
 	color: #FFF;
 	padding: 10px;	
 }
-.page-node-63 .item-list .pager li a,
-.page-node-64 .item-list .pager li a{
+.page-node-58 .item-list .pager li a,
+.page-node-59 .item-list .pager li a{
 	color: #58595B;
 	padding: 10px;
 	border: 1px solid #BBBDBF;	
@@ -1573,8 +1573,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	font-weight: normal;
 	text-decoration: none;	
 }
-.page-node-63 .item-list .pager li a:hover,
-.page-node-64 .item-list .pager li a:hover{
+.page-node-58 .item-list .pager li a:hover,
+.page-node-59 .item-list .pager li a:hover{
 	background-color: #00599C;
 	color: #FFF;
 }
@@ -1763,8 +1763,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	background-image: url('../images/next_slider_2.png');
 }
 
-.page-node-58 .flex-control-nav,
-.page-node-59 .flex-control-nav{
+.view-detalle-proyectos .flex-control-nav{
 	display: none;
 }
 .view-detalle-proyectos .views-field-field-historia-del-proyecto{
@@ -1786,12 +1785,12 @@ body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-submi
 	text-align: center;
 	margin: 50px 0px;
 }
-.page-node-58 #block-views-proyectos-block-4,
-.page-node-59 #block-views-proyectos-block-5{
+.node-proyectos #block-views-proyectos-block-4,
+.node-proyectos #block-views-proyectos-block-5{
 	background-color: #F1F1F2;
 	overflow:hidden;
 	clear:both;
 }
-.page-node-58 .view-proyectos .views-row{
+.node-proyectos .view-proyectos .views-row{
 	background-color: #FFF;
 }

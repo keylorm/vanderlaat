@@ -30,12 +30,12 @@ regions[help]               = Help
 regions[highlighted]        = Highlighted
 
 regions[above_content]      = Above Content
+regions[top_content]            = Top Content
 regions[content]            = Content
 regions[sidebar_first]      = Sidebar First
 regions[sidebar_second]     = Sidebar Second
 regions[below_content]      = Below Content
-regions[below_content_sidebar_first]      = Below Content Sidebar First
-regions[below_content_sidebar_second]      = Below Content Sidebar Second
+
 
 regions[footer_first]             = Footer First
 regions[footer_second]             = Footer Second

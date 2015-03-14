@@ -2079,3 +2079,220 @@ body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-su
 }
 
 /* BLOG */
+.page-node-68 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+.page-node-69 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+	padding-top: 42px;
+}
+
+.page-node-68 .node-page p,
+.page-node-69 .node-page p{
+	font-family: Roboto, sans-serif;
+	color: #58595B;
+	font-weight: 300;
+	font-size: 21px;
+	text-align: center;
+	line-height: 28px;
+	padding: 0px 155px;
+}
+.page-node-68 #block-views-blog-block-1,
+.page-node-69 #block-views-blog-block-1{
+	float:left;
+}
+.page-node-68 #block-views-blog-block-1 h2,
+.page-node-69 #block-views-blog-block-1 h2{
+
+}
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row {
+  position: relative;
+  width: 600px;
+  margin-bottom: 35px;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-top: 4px solid #004c89;
+  background-color: #f1f1f2;
+  margin-right: 0px;
+  overflow: hidden;
+  box-sizing:border-box;
+}
+
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row h2 a,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row h2 a{
+  font-family: Ubuntu, sans-serif;
+  color: #00599c;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-type-text-with-summary p,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-type-text-with-summary p{
+  margin-top: 25px;
+  font-family: Roboto, sans-serif;
+  color: #58595b;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: justify;
+}
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-name-post-date,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-name-post-date {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Roboto, sans-serif;
+  color: #6d6e70;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-type-image img,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-type-image img {
+  height: 275px;
+  /*background-size: 125px;*/
+}
+
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;	
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 43px;
+  height: 43px;
+  background-color: #e6e7e8;
+  background-image: url('../images/f-articulos.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-indent: 200px;
+  line-height: 200px;
+  background-color: #bbbdbf;
+}
+.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a:after,
+.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a:after{
+  content: '';
+  margin-left: 100px;
+  height: 70px;		
+}
+
+#sidebar-second{
+	float:right;
+	background-color: #F1F1F2;
+	width: 340px;
+}
+#sidebar-second #block-taxonomy-menu-block-1 h2,
+#sidebar-second #block-taxonomy-menu-block-2 h2{
+  font-family: Ubuntu, sans-serif;
+  color: #00599c;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align:center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #E6E7E8;
+  margin: 0px;
+  padding: 20px 0px;	
+}
+#sidebar-second #block-taxonomy-menu-block-1 ul,
+#sidebar-second #block-taxonomy-menu-block-2 ul{
+	margin: 0px; padding: 0px; list-style: none;
+}
+#sidebar-second #block-taxonomy-menu-block-1 ul li,
+#sidebar-second #block-taxonomy-menu-block-2 ul li{
+	margin: 0px; padding: 0px;
+}
+#sidebar-second #block-taxonomy-menu-block-1 ul li.first,
+#sidebar-second #block-taxonomy-menu-block-2 ul li.first{
+	margin-top: 15px;
+}
+#sidebar-second #block-taxonomy-menu-block-1 ul li a,
+#sidebar-second #block-taxonomy-menu-block-2 ul li a{
+	display: block;
+  font-family: Roboto, sans-serif;
+  color: #404041;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  box-sizing:border-box;
+  padding-left: 20px;
+  border-bottom: 1px solid #E6E7E8;
+  background-image: url('../images/f-categorias.png');
+  background-repeat:no-repeat;
+  background-position: 94% 50%;
+}
+
+#sidebar-second .webform-client-form.webform-client-form-1,
+#sidebar-second .webform-client-form.webform-client-form-2{
+	background-color: #F6921F;
+	width: 100%;
+	height: 120px;
+	box-sizing:border-box;
+	padding: 20px;
+	padding-top: 10px;
+	
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .form-item,
+#sidebar-second .webform-client-form.webform-client-form-2 .form-item{
+	margin: 0px;
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .webform-component h3,
+#sidebar-second .webform-client-form.webform-client-form-2 .webform-component h3{
+  font-family: Ubuntu, sans-serif;
+  color: #FFF;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .webform-component h4,
+#sidebar-second .webform-client-form.webform-client-form-2 .webform-component h4{
+  font-family: Ubuntu, sans-serif;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  text-transform: uppercase; 
+  margin: 0px;
+  margin-bottom: 5px;
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .form-actions,
+#sidebar-second .webform-client-form.webform-client-form-2 .form-actions{
+	margin-top: 0px;
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .form-text,
+#sidebar-second .webform-client-form.webform-client-form-2 .form-text{
+	width: 170px;
+	height: 32px;
+	border: none;
+	padding-left: 15px;
+	float:left;
+	margin-right: 10px;
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .form-text{
+	width: 186px;
+}
+#sidebar-second .webform-client-form.webform-client-form-2 .form-text{
+	width: 203px;
+}
+#sidebar-second .webform-client-form.webform-client-form-1 .webform-submit,
+#sidebar-second .webform-client-form.webform-client-form-2 .webform-submit{
+	background-color: transparent;
+	border-radius: 3px;
+	border: 2px solid #FFF;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #FFF;
+	padding: 5px 10px;
+	float:left;	
+}

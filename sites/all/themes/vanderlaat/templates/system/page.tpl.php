@@ -77,10 +77,14 @@
   <?php endif; ?>
       <?php if ($page['top_content']): ?>
         <div id="top-content" class="">
+        <?php /*quita el title en caso de que sea el blog*/
+        if((arg(0)=='node'&& arg(1)==68)||(arg(0)=='node'&& arg(1)==69)):?> 
+
+        <?php else: ?>
           <?php print render($title_prefix); ?>
           <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
           <?php print render($title_suffix); ?>
-
+        <?php endif; ?>
           <?php if ($tabs): ?>
             <?php print render($tabs); ?>
 

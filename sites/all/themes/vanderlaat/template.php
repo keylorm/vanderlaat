@@ -90,6 +90,8 @@ function vanderlaat_preprocess_html(&$variables) {
   if (theme_get_setting('normalize_css')) {
     drupal_add_css(drupal_get_path('theme', 'vanderlaat') . '/css/normalize.css', array('group' => CSS_SYSTEM, 'weight' => -100));
   }
+
+
 }
 
 /**
@@ -143,3 +145,5 @@ function vanderlaat_preprocess_page(&$vars, $hook) {
     $vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type;
   }
 }
+
+

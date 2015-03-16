@@ -8,11 +8,37 @@
 
 
 @media only screen and (max-width : 690px) {
-#block-system-main-menu .menu {
+#block-system-main-menu {
 		display:none;
 	}
 	
 	.slicknav_menu {
 		display:block;
+	}
+
+	#block-menu-menu-top-menu{
+		display: none;
+	}
+	
+	#block-search-form{
+		display: none;
+	}
+
+	.top-menu-container {
+	  height: 50px;
+	  background-color: #00599C;
+	  width: 50%;
+	  position: absolute;
+	  top: 0;
+	}
+
+	body .header .top-menu-container #block-lang-dropdown-language{
+		border-right: 0;
+	}
+
+	.slicknav_nav a{
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
 	}
 }

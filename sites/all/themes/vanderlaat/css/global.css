@@ -372,15 +372,18 @@ body .header .logo-menu-wrapper{
 .panels-flexible-region{
 	width: 100%;
 }
-.pane-views-servicios-block{
+.pane-views-servicios-block,
+.pane-views-servicios-block-3{
 	background-color: #E6E7E8;
 	overflow:hidden;
 }
-.pane-views-servicios-block .view-servicios{
+.pane-views-servicios-block .view-servicios,
+.pane-views-servicios-block-3 .view-servicios{
 	clear:both;
 }
 
-.pane-views-servicios-block .view-servicios .view-header h2{
+.pane-views-servicios-block .view-servicios .view-header h2,
+.pane-views-servicios-block-3 .view-servicios .view-header h2{
 	color: #00599C;
 	font-family: Ubuntu, sans-serif;
 	font-size: 38px;
@@ -390,12 +393,14 @@ body .header .logo-menu-wrapper{
 	margin: 50px 0px;
 }
 
-.pane-views-servicios-block .view-servicios .view-content .views-row{
+.pane-views-servicios-block .view-servicios .view-content .views-row,
+.pane-views-servicios-block-3 .view-servicios .view-content .views-row{
 	float:left;
 	height: 180px;
 	position:relative;
 }
-.pane-views-servicios-block .view-servicios .view-content .views-row .views-field-title{
+.pane-views-servicios-block .view-servicios .view-content .views-row .views-field-title,
+.pane-views-servicios-block-3 .view-servicios .view-content .views-row .views-field-title{
 	position:absolute;
 	width: 100%;
 	height: 50px;
@@ -403,7 +408,8 @@ body .header .logo-menu-wrapper{
 	background-repeat: repeat;
 	bottom: 0px;
 }
-.pane-views-servicios-block .view-servicios .view-content .views-row .views-field-title a{
+.pane-views-servicios-block .view-servicios .view-content .views-row .views-field-title a,
+.pane-views-servicios-block-3 .view-servicios .view-content .views-row .views-field-title a{
 	display:block;
 	width: 100%;
 	height:50px;
@@ -419,12 +425,14 @@ body .header .logo-menu-wrapper{
 	text-decoration: none;
 }
 
-.pane-views-servicios-block .view-servicios .view-content .views-row-4 .views-field-title a{
+.pane-views-servicios-block .view-servicios .view-content .views-row-4 .views-field-title a,
+.pane-views-servicios-block-3 .view-servicios .view-content .views-row-4 .views-field-title a{
 	line-height: 15px;
 	padding-top: 11px;
 }
 
 .pane-views-servicios-block + .panel-separator,
+.pane-views-servicios-block-3 + .panel-separator,
 .llamado-accion + .panel-separator{
 	display:none;
 }

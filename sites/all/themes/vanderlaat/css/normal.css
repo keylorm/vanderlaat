@@ -16,6 +16,14 @@
 	.slicknav_menu {
 		display:none;
 	}
-	
+	#block-system-main-menu {
+		display:block;
+	}
+	#block-menu-menu-top-menu{
+		display: block;
+	}
 
+	#block-search-form{
+		display: block;
+	}
 }

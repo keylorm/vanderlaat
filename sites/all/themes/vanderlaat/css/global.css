@@ -280,7 +280,7 @@ body .header .logo-menu-wrapper{
 }
 
 #block-system-main-menu ul li a:hover,
-#block-system-main-menu ul li a.active-{
+#block-system-main-menu ul li a.active{
   background-image: url('../images/active_menu.png');
   background-position: 0px 50%;
 }

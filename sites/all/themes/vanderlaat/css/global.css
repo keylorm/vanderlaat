@@ -2657,3 +2657,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-su
 #block-menu-menu-menu-para-movil{
 		display: none;
 	}
+
+	.slicknav_menu {
+		display:none;
+	}

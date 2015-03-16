@@ -39,6 +39,52 @@
 	.slicknav_nav a{
 		color: #fff;
 		font-family: 'Open Sans', sans-serif;
-		font-size: 14px;
+		font-size: 17px;
+	}
+
+	#logo {
+	  float: none;
+	  
+	  text-align: center;
+	}
+
+	body .footer .footer-first-wrapper #block-menu-menu-footer-menu ul li{
+		width: 100% !important;
+		text-align: center;
+	}
+
+	#block-block-1 {
+	  text-align: center;
+	}
+
+	body .footer .footer-first-wrapper{
+		width: 100%;
+		float: none;
+	}
+
+	body .footer {
+	  height: auto; 
+	  padding-bottom: 50px;
+
+	}
+
+	body .footer .footer-second-wrapper {
+	  width: 100%;
+	}
+
+	body .footer .footer-second-wrapper #block-block-2 p, body .footer .footer-second-wrapper #block-block-2 a, body .footer .footer-second-wrapper #block-block-3 p, body .footer .footer-second-wrapper #block-block-3 a{
+		text-align: center;
+	}
+
+	body .footer .footer-second-wrapper .redes-logos-footer {
+	  float: none;
+	  margin: 0 auto;
+	  width: 45px;
+	}
+
+
+	body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer .footer-second-wrapper #block-webform-client-block-2, body .footer .footer-second-wrapper #block-webform-client-block-1--2, body .footer .footer-second-wrapper #block-webform-client-block-2--2 {
+	  width: 252px;
+	  margin: 0 auto;
 	}
 }

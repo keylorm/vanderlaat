@@ -19,9 +19,13 @@ jQuery(document).ready(function(){
 	jQuery('.node-type-blog #comments #edit-comment-body-und-0-value').attr('placeholder', jQuery('.node-type-blog #comments label[for="edit-comment-body-und-0-value"]').text());
 	
 
+	/* para menu responsivo */
+	jQuery('#block-menu-menu-menu-para-movil .menu').slicknav();
 
 	
 });
+
+	
 
 jQuery( document ).ajaxComplete(function() {
 

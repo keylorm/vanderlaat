@@ -1,0 +1,18 @@
+/* 
+    Document   : responsive para moviles
+    Created on : 05-feb-2014, 13:04:09
+    Author     : Keylor Mora
+    Description:
+        This CSS is used to apply the Responsive Appereance to the website.
+*/
+
+
+@media only screen and (max-width : 690px) {
+#block-system-main-menu .menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
+}

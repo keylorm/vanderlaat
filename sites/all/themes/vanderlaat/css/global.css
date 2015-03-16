@@ -753,7 +753,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-2--2 .email{
 }
 body .footer .footer-second-wrapper #block-webform-client-block-2 .email,
 body .footer .footer-second-wrapper #block-webform-client-block-2--2 .email{
-	width: 158px;
+	width: 157px;
 }
 body .footer .footer-second-wrapper #block-webform-client-block-1 .webform-component-email,
 body .footer .footer-second-wrapper #block-webform-client-block-2 .webform-component-email,
@@ -2303,10 +2303,10 @@ body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-su
 	margin-right: 10px;
 }
 #sidebar-second .webform-client-form.webform-client-form-1 .form-text{
-	width: 186px;
+	width: 185px;
 }
 #sidebar-second .webform-client-form.webform-client-form-2 .form-text{
-	width: 203px;
+	width: 202px;
 }
 #sidebar-second .webform-client-form.webform-client-form-1 .webform-submit,
 #sidebar-second .webform-client-form.webform-client-form-2 .webform-submit{
@@ -2639,3 +2639,13 @@ body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-su
     font-size: 17px;
     font-weight: 300;
 }
+
+
+.form-actions .ajax-progress{
+	display: none !important;
+}
+/* Responsividad */
+
+#block-menu-menu-menu-para-movil{
+		display: none;
+	}

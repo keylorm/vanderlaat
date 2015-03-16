@@ -55,9 +55,12 @@ stylesheets[all][] = css/movil.css
 stylesheets[all][] = css/tablet.css
 stylesheets[all][] = css/normal.css
 stylesheets[all][] = css/wide.css
+stylesheets[all][] = css/slicknav.css
+
 
 ;-------------- JS -------------
 scripts[] = js/global.js
+scripts[] = js/jquery.slicknav.min.js
 
 
 

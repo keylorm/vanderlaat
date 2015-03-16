@@ -1,0 +1,13 @@
+/* 
+    Document   : responsive para tablet
+    Created on : 05-feb-2014, 13:04:09
+    Author     : Keylor Mora
+    Description:
+        This CSS is used to apply the Responsive Appereance to the website.
+*/
+
+
+@media only screen and (min-width : 691px) and (max-width : 1000px) {
+
+	
+}

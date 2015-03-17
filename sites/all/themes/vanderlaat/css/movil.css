@@ -99,20 +99,6 @@
 	
 	/*ANDREY S :: 16-03-2015*/
 	
-	/*.grid-1280 .pane-content,
-	.grid-1280 .view-content{
-		  max-width: 100% !important;
-	}
-	.header .grid,
-	.footer .grid,
-	.grid-1000 .pane-content,
-	.grid-1000 .view-content,
-	.grid-1000 .view-header{
-		max-width: 100% !important;
-	}*/
-	
-	
-	
 	.pilares-titulo h2{
 		font-size:19px;
 		line-height: 20px;
@@ -192,6 +178,9 @@
 		line-height: 20px;
 		padding-top: 10px;
 		padding-bottom: 10px;
+	}
+	.bloque-home-caras-compromiso-rows{
+		width: 100%;
 	}
 	.bloque-home-caras-compromiso-row{
 		float:none;

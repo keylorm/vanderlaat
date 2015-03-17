@@ -14,6 +14,7 @@
 	
 	.slicknav_menu {
 		display:block;
+		margin-top: 0;
 	}
 
 	#block-menu-menu-top-menu{
@@ -24,12 +25,13 @@
 		display: none;
 	}
 
-	.top-menu-container {
+	body .header .top-menu-container {
 	  height: 50px;
 	  background-color: #00599C;
 	  width: 50%;
 	  position: absolute;
 	  top: 0;
+	  border-bottom: none;
 	}
 
 	body .header .top-menu-container #block-lang-dropdown-language{
@@ -86,6 +88,7 @@
 	body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer .footer-second-wrapper #block-webform-client-block-2, body .footer .footer-second-wrapper #block-webform-client-block-1--2, body .footer .footer-second-wrapper #block-webform-client-block-2--2 {
 	  width: 252px;
 	  margin: 0 auto;
+	  float: none;
 	}
 	
 	

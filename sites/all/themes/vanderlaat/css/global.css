@@ -40,7 +40,8 @@ body .header .top-menu-container .form-item{
 }
 body .header .top-menu-container #block-lang-dropdown-language{
 	border-right: 1px solid #002D5C;
-	margin-right: 390px;
+	/*margin-right: 390px;*/
+	float: left;
 }
 body .header .top-menu-container #lang-dropdown-select-language{
 	font-family:'Open Sans', sans-serif;
@@ -90,7 +91,7 @@ body .header .top-menu-container .grid #block-menu-menu-top-menu ul li a{
 
 body .header .top-menu-container #block-search-form,
 body .header .top-menu-container #block-menu-menu-top-menu{
-
+	float: right;
 }
 body .header .top-menu-container .form-item-search-block-form input{
   width: 185px;

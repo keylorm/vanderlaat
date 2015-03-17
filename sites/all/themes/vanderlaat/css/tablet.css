@@ -7,7 +7,7 @@
 */
 
 
-@media only screen and (min-width : 691px) and (max-width : 1000px) {
+@media only screen and (max-width : 1000px) {
 
 
 
@@ -20,9 +20,68 @@
 	
 	/*ANDREY S :: 16-03-2015*/
 	
-	
-	
+	.box_icon {
+		width: 50%;
+	}
+	.grid-1280 .pane-content,
+	.grid-1280 .view-content{
+		  max-width: 100% !important;
+	}
+	.header .grid,
+	.footer .grid,
+	.grid-1000 .pane-content,
+	.grid-1000 .view-content,
+	.grid-1000 .view-header{
+		max-width: 100% !important;
+	}
+	#slider-home .flex-caption,
+	#slider-home .flex-direction-nav{
+		width: 100%;
+	}
+	.flexslider .slides img{
+		height: auto !important;
+		min-height: 400px;
+	}
+	#slider-home .flex-caption{
+		top: 38%;
+	}
+	#slider-home .flex-caption .slider-home-title h3{
+		font-size: 37px;
+		line-height: 36px;
+	}
+	body .view-servicios .view-content,
+	.bloque-home-caras-compromiso-rows{
+		width: 515px;
+		margin: 0 auto;
+	}
+	body .view-blog .view-content{
+		width: 650px;
+		margin: 0 auto;		
+	}	
 
-
-	
+	.bloque-llamado-accion-contacto-inner{
+		padding: 0px 20px;
+	}
+	.view-blog .views-row{
+		width: 45%;
+		min-height:inherit;
+		margin-bottom: 20px;
+	}
+	.view-blog .views-row.views-row-last{
+		margin-right:30px;
+	}
+	.view-blog .views-row .views-field-title a{
+		font-size: 19px;
+		line-height: 20px;	
+	}
+	.view-blog .views-row .views-field-created{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 14px;		
+	}
+	.view-blog .views-row .views-field-body p{
+		margin-top: 10px;
+		font-size: 15px;
+	}
+		
 }

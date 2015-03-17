@@ -7,7 +7,7 @@
 */
 
 
-@media only screen and (max-width : 690px) {
+@media only screen and (max-width : 640px) {
 #block-system-main-menu {
 		display:none;
 	}
@@ -99,7 +99,146 @@
 	
 	/*ANDREY S :: 16-03-2015*/
 	
+	/*.grid-1280 .pane-content,
+	.grid-1280 .view-content{
+		  max-width: 100% !important;
+	}
+	.header .grid,
+	.footer .grid,
+	.grid-1000 .pane-content,
+	.grid-1000 .view-content,
+	.grid-1000 .view-header{
+		max-width: 100% !important;
+	}*/
 	
 	
+	
+	.pilares-titulo h2{
+		font-size:19px;
+		line-height: 20px;
+	}
+	.pilares-descri p{
+		font-size: 20px;
+		padding: 0px 10px;
+		line-height: 20px;
+	}	
+	.box_icon {
+		width: 100%;
+	}
+	.icon{
+		margin-bottom: 22px;
+	}
+	.flexslider .slides img{
+		height: auto !important;
+		min-height: 0px !important;
+	}
+	#slider-home .flex-caption{
+		position:relative;
+		background-image: none;
+		background-color: #00599C;
+	}
+	#slider-home .flex-caption .slider-home-title h3{
+		font-size: 20px;
+		line-height: 20px;
+	}
+	#slider-home .flex-caption .slider-home-desc p{
+		font-size: 15px;
+		margin-bottom: 5px;
+		margin-top: 5px;		
+	}
+	#slider-home .flex-direction-nav{
+		margin-top:auto;
+		top: 25%;
+	}
+	body #slider-home .flex-direction-nav li a{
+		display: block !important;
+		width: 45px;
+		height: 45px;
+	}
+	#slider-home .flex-direction-nav a.flex-prev,
+	#slider-home .flex-direction-nav a.flex-next{
+		background-size: 45px;
+	}
+	.pane-views-servicios-block .view-servicios .view-header h2,
+	.pane-views-servicios-block-3 .view-servicios .view-header h2{
+		font-size: 26px;
+		margin: 40px 0px;
+	}
+	
+	.pane-views-servicios-block .view-servicios .view-content .views-row,
+	.pane-views-servicios-block-3 .view-servicios .view-content .views-row{
+		float:none;
+		width: 256px;
+		margin: 0 auto;
+		margin-bottom: 20px;	
+	}
+	.bloque-llamado-accion-contacto-inner{
+		padding: 0px;
+	}	
+	.bloque-llamado-accion-contacto-texto p{
+		float: none;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;	
+	}
+	.bloque-llamado-accion-contacto-boton a{
+		display: block;
+		float: none;
+		width: 220px;
+  		margin: 0 auto;
+	}
+	.bloque-home-caras-compromiso h2{
+		font-size: 20px;
+		line-height: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.bloque-home-caras-compromiso-row{
+		float:none;
+		width: 256px;
+		margin: 0 auto;
+		margin-bottom: 20px;	
+	}
+	.view-blog .views-row.views-row-last{
+		margin-right:auto;
+	}
+	.lineas{
+		padding: 0px;
+	}
+	.lineas:before,
+	.lineas:after {
+		display:none;
+	}
+	.compromiso-pie p{
+		font-size: 19px;
+	}
+	.view-blog{
+		padding-bottom: 10px;
+	}
+	.view-blog .view-header h2{
+		font-size: 26px;
+		padding-top: 10px;
+		padding-bottom: 10px;		
+	}
+	.view-blog .views-row{
+		float:none;
+		width: 93%;
+		min-height:inherit;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.view-blog .views-row .views-field-title a{
+		font-size: 19px;
+		line-height: 20px;	
+	}
+	.view-blog .views-row .views-field-created{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 14px;		
+	}
+	.view-blog .views-row .views-field-body p{
+		margin-top: 10px;
+		font-size: 15px;
+	}
 	
 }

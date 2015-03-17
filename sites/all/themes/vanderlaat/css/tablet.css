@@ -82,6 +82,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	#slider-home .flex-direction-nav{
 		width: 100%;
 	}
+	body:not(.front) .main-content{
+	}
 	.flexslider .slides img{
 		height: auto !important;
 		min-height: 400px;
@@ -129,5 +131,127 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 		margin-top: 10px;
 		font-size: 15px;
 	}
+	
+	/*QUE HACEMOS*/
+	.view-id-imagen_top .views-row{
+		height: auto;
+	}
+	.views-field-field-imagen-top img{
+		width: 100%;
+		height: auto;
+	}
+	.view-id-imagen_top .views-field-nothing{
+		width: 100%;
+	}
+	.page-node-50 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+	.page-node-51 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+		width: 100%;
+		font-size: 28px;
+		line-height: 29px;
+	}
+	.page-node-50 .texto-hover-imagen-top .texto-hover-imagen-top-texto,
+	.page-node-51 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
+		font-size: 24px;
+	}
+	.page-node-50 .main .field-name-body p,
+	.page-node-51 .main .field-name-body p{
+		font-size: 21px;
+		line-height: 23px;
+		padding:0px 30px;		
+	}
+	.page-node-50 .submenu-list li a,
+	.page-node-51 .submenu-list li a{
+		padding: 7px 24px;
+	}
+	.submenu-list li.first a{
+		padding-left: 24px !important;
+	}
+	body.page-node-50 .view-servicios .view-content,
+	body.page-node-51 .view-servicios .view-content{
+		width: 100%; /*650px*/
+	}
+	#block-views-servicios-block-1 .view-content .views-row,
+	#block-views-servicios-block-2 .view-content .views-row{
+		height:auto;
+	}
+	#block-views-servicios-block-1 .view-content .views-row .servicio-imagen,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-imagen{
+		width: 280px;
+		height: auto;
+	}
+	#block-views-servicios-block-1 .view-content .views-row .servicio-imagen img,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-imagen img{
+		width: 100%;
+		height: auto;
+	}
+	#block-views-servicios-block-1 .view-content .views-row .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-texto{
+		width: 280px;
+		padding: 20px 0px 10px 0px;
+		margin-left: 30px;
+	}
+	#block-views-servicios-block-1 .view-content .views-row.views-row-2 .servicio-texto,
+	#block-views-servicios-block-1 .view-content .views-row.views-row-4 .servicio-texto,
+	#block-views-servicios-block-1 .view-content .views-row.views-row-6 .servicio-texto,
+	#block-views-servicios-block-1 .view-content .views-row.views-row-8 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-2 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-4 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-6 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-8 .servicio-texto{
+		margin-left: 45px;
+	}
+	#block-views-servicios-block-1 .view-content .views-row .servicio-titulo,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-titulo{
+		font-size: 22px;
+		line-height: 23px;		
+	}
+	#block-views-servicios-block-1 .view-content .views-row .servicio-texto h4,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-texto h4{
+		font-size: 18px;
+		margin-bottom: 0px;		
+	}
+	#block-views-servicios-block-1 .view-content .views-row .servicio-texto .servicio-descri .ul-col ul li span,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-texto .servicio-descri .ul-col ul li span{
+		font-size: 13px;
+		line-height: 14px;
+	}
+	#block-views-proyectos-block .bloque-proyectos-encabezado h3,
+	#block-views-proyectos-block-1 .bloque-proyectos-encabezado h3{
+		font-size: 27px;
+		line-height: 28px;
+		margin: 30px 0px;		
+	}
+	.view-proyectos .view-content{
+		width: 650px;
+		margin: 0 auto;
+	}
+	.view-proyectos .views-row{
+		width: 45%;
+	}
+	.view-proyectos .views-row .views-field-field-imagen img{
+		width: 100%;
+	}
+	
+	/*OBRAS QUE INSPIRAN*/
+	.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+	.page-node-59 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+		width: 100%;
+		font-size: 25px;
+	}
+	.view-proyectos .views-row-2,
+	.view-proyectos .views-row-4,
+	.view-proyectos .views-row-6,
+	.view-proyectos .views-row-8,
+	.view-proyectos .views-row-10,
+	.view-proyectos .views-row-12,
+	.view-proyectos .views-row-14,
+	.view-proyectos .views-row-16,
+	.view-proyectos .views-row-18,
+	.view-proyectos .views-row-20,
+	.view-proyectos .views-row-22,
+	.view-proyectos .views-row-24{	
+		margin-right: 0px;
+		float:right;
+	}		
 		
 }

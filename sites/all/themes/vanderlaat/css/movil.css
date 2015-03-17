@@ -233,4 +233,93 @@
 		font-size: 15px;
 	}
 	
+	/*QUE HACEMOS*/
+
+	.view-id-imagen_top .views-field-nothing{
+		width: 100%;
+		margin-top: 0px;
+	}	
+	.page-node-50 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+	.page-node-51 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+		font-size: 18px;
+		line-height: 19px;
+	}
+	.page-node-50 .texto-hover-imagen-top .texto-hover-imagen-top-texto,
+	.page-node-51 .texto-hover-imagen-top .texto-hover-imagen-top-texto{
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.submenu-list li{
+		width: 100%;
+		text-align:center;
+	}
+	
+	#block-views-servicios-block-1 .view-content .views-row .servicio-imagen,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-imagen{
+		width: 100%;
+	}		
+	#block-views-servicios-block-1 .view-content .views-row .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row .servicio-texto{
+		width: 100%;
+		padding: 20px 15px 10px 15px;
+		margin-left: 0px;
+	}
+	#block-views-servicios-block-1 .view-content .views-row.views-row-2 .servicio-texto,
+	#block-views-servicios-block-1 .view-content .views-row.views-row-4 .servicio-texto,
+	#block-views-servicios-block-1 .view-content .views-row.views-row-6 .servicio-texto,
+	#block-views-servicios-block-1 .view-content .views-row.views-row-8 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-2 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-4 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-6 .servicio-texto,
+	#block-views-servicios-block-2 .view-content .views-row.views-row-8 .servicio-texto{
+		margin-left: 0px;
+	}
+	#block-views-proyectos-block .bloque-proyectos-encabezado h3,
+	#block-views-proyectos-block-1 .bloque-proyectos-encabezado h3{
+		font-size: 21px;
+		line-height: 23px;	
+	}
+	.view-proyectos .view-content{
+		width: 95%;
+	}
+	.view-proyectos .views-row{
+		width: 100%;
+	}
+	
+	/*OBRAS QUE INSPIRAN*/
+	.page-node-58 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3,
+	.page-node-59 .texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+		width: 100%;
+		font-size: 21px;
+		line-height: 24px;
+		padding-top: 10px;		
+	}
+	#page-title{
+		font-size: 25px;
+	}
+	.node-type-page .field-name-body h3{
+		font-size: 22px;
+		line-height: 25px;		
+	}
+	.page-node-58 .view-filters,
+	.page-node-59 .view-filters{
+		width: 95%;
+		margin: 0 auto;
+		border-radius: 5px;
+		margin-bottom: 30px;
+	}
+	#views-exposed-form-proyectos-block-2 .views-exposed-widget,
+	#views-exposed-form-proyectos-block-3 .views-exposed-widget{
+		width: 100%;
+		padding: 0px;
+		border-right: none;
+	}
+	.label-filtro{
+		width: 100%;
+		border-right: none;
+	}
+	#views-exposed-form-proyectos-block-2 select,
+	#views-exposed-form-proyectos-block-3 select{
+		width: 100%;
+	}
 }

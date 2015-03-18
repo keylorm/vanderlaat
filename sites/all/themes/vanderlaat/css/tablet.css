@@ -103,6 +103,9 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	.breadcrumb{
 		padding: 20px 20px;
 	}
+	.slicknav_nav li a.active{
+		color: #F6921E;
+	}
 	.box_icon {
 		width: 50%;
 	}
@@ -152,9 +155,9 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 		margin-right: 1%;		
 		margin-bottom: 20px;
 	}
-	.view-blog .views-row.views-row-last{
+	/*.view-blog .views-row.views-row-last{
 		margin-right:30px;
-	}
+	}*/
 	.view-blog .views-row .views-field-title a{
 		font-size: 19px;
 		line-height: 20px;	
@@ -387,7 +390,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 		width: 100%;
 	}
 	/*BLOG*/
-	body .main-content .main,
+	body.one-sidebar .main-content .main,
 	#sidebar-second{
 		width: 650px;
 		float:none;
@@ -410,11 +413,103 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a,
 	.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a,
 	.page-taxonomy-term .blog-categories .views-row .field-name-node-link a{
-		right: 6px;
+		/*right: 6px;*/
 	}
 	/*DETALLE DEL BLOG*/
+	.view-blog .view-header h2{
+		font-size:25px;
+	}
 	body:not(.front) .main-content{
+		max-width: 100% !important;
+	}
+	.node-type-blog .field-name-body, .node-type-blog .field-name-body p{
+		padding: 0 15px;
+	}
+	.main-content .main .field-type-image img{
+		width: 100%;
+		height: auto;
+	}
+	.node-type-blog #block-commentsblock-comment-form-block .content{
+		width: 610px;
+		margin: 0 auto;
+	}
+	.node-type-blog #block-commentsblock-comment-form-block{
+		height: auto;
+		overflow: hidden;
+		padding: 20px 15px;
+	}
+	.node-type-blog #block-commentsblock-comment-form-block .content .field-name-comment-body{
+		float: none;
 		width: 100%;
 	}
+	.node-type-blog #block-views-comments-block-block .views-row .views-field-comment-body{
+		font-size: 17px;
+		line-height: 21px;		
+	}
+	.node-type-blog #block-commentsblock-comment-form-block .content .field-name-comment-body textarea{
+		float:left;
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+	}	
+	.node-type-blog #block-commentsblock-comment-form-block .content .form-item-name,
+	.node-type-blog #block-commentsblock-comment-form-block .content .field-name-field-empresa,
+	.node-type-blog #block-commentsblock-comment-form-block .content .field-name-field-email{
+		width: 100%;
+	}	
+	.node-type-blog #block-commentsblock-comment-form-block .content .form-actions{
+		float: left;
+		margin-top: 15px;
+		width: 100%;
+	}
+	.node-type-blog #block-commentsblock-comment-form-block .content .form-actions input#edit-submit{
+		width: 100%;
+	}
+	.node-type-blog #page-title{
+		line-height: 25px;
+		margin-top: 0px;	
+	}
+	.views-row.views-row-1.views-row-odd.views-row-first{
+		margin-right: 0px;
+	}
+	/*PÁGINA RESULTADOS BUSQUEDA*/
+	.page-search-node h2{
+		font-size: 26px;
+	}
+	.page-search ol{
+		padding: 0px;
+		margin: 0px;
+	}
+	.page-search ul{
 		
+	}
+	.page-search li.search-result{
+		padding: 0 20px;
+		border-bottom: 1px solid #CCC;
+	}
+	.page-search li.search-result p{
+		line-height: 19px;
+	}
+			
+		
+}
+
+@media only screen and (min-width : 1001px) and (max-width : 1240px) {
+
+	#block-views-servicios-block-1 .view-content .views-row .servicio-imagen, #block-views-servicios-block-2 .view-content .views-row .servicio-imagen{
+		width: 430px;
+	}
+	
+	#block-views-servicios-block-1 .view-content .views-row .servicio-imagen img, #block-views-servicios-block-2 .view-content .views-row .servicio-imagen img{
+		width: 100%;
+		height:auto;
+	}
+	#block-views-servicios-block-1 .view-content .views-row.views-row-2 .servicio-texto, #block-views-servicios-block-1 .view-content .views-row.views-row-4 .servicio-texto, #block-views-servicios-block-1 .view-content .views-row.views-row-6 .servicio-texto, #block-views-servicios-block-1 .view-content .views-row.views-row-8 .servicio-texto, #block-views-servicios-block-2 .view-content .views-row.views-row-2 .servicio-texto, #block-views-servicios-block-2 .view-content .views-row.views-row-4 .servicio-texto, #block-views-servicios-block-2 .view-content .views-row.views-row-6 .servicio-texto, #block-views-servicios-block-2 .view-content .views-row.views-row-8 .servicio-texto{
+		margin-left: 8%;
+		width: 480px;
+	}
+	#block-views-servicios-block-1 .view-content .views-row, #block-views-servicios-block-2 .view-content .views-row{
+		height: auto;
+	}	
+	
 }

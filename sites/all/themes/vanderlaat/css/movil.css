@@ -441,7 +441,7 @@
 		line-height: 26px;
 		padding: 0px;	
 	}
-	body .main-content .main,
+	body.one-sidebar .main-content .main,
 	#sidebar-second{
 		width: 100%;
 	}
@@ -483,6 +483,64 @@
 	}
 	#sidebar-second .webform-client-form.webform-client-form-1 .form-text{
 		width: 165px;
+	}
+	/*DETALLE BLOG*/
+	.node-type-blog #page-title{
+		font-size: 20px;
+		line-height: 22px;
+		text-align: center;
+		padding: 0 15px;
+	}
+	.node-type-blog .field-name-post-date{
+		font-size: 14px;
+	}
+	.node-type-blog .field-name-body,
+	.node-type-blog .field-name-body p{
+		padding: 0 5px;
+		font-size: 15px;
+		line-height: 20px;		
+	}
+	.node-type-blog .field-name-field-tags{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.node-type-blog #block-views-comments-block-block{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.node-type-blog #block-views-comments-block-block .views-row .views-field-name{
+		font-size: 16px;
+	}
+	.node-type-blog #block-views-comments-block-block .views-row .views-field-comment-body{
+		font-size: 14px;
+		line-height: 16px;		
+	}
+	.node-type-blog #block-commentsblock-comment-form-block .content{
+		width: 100%;
+	}
+	.node-type-blog #block-commentsblock-comment-form-block .content h2.title{
+		font-size: 24px;
+	}
+	.view-blog .view-header h2{
+		font-size: 21px;
+	}
+	.views-row.views-row-1.views-row-odd.views-row-first{
+		margin-right: auto;
+	}
+	/*PÁGINA RESULTADOS BUSQUEDA*/
+	.page-search-node h2{
+		font-size: 25px;
+		line-height: 27px;
+		text-align:center;
+	}	
+	.page-search-node #search-form label, .page-search-node #search-form input{
+		width: 100%;
+	}
+	.page-search-node h3 a{
+		line-height: 18px;
+		display:block;
+	}	
+	.page-search li.search-result p{
 	}
 			
 }

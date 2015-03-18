@@ -80,6 +80,19 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
   margin-top: 0px;
 }
 
+.solidez-mision-vision .solidez-mision-vision-content .solidez-col1, 
+.solidez-mision-vision .solidez-mision-vision-content .solidez-col {
+  margin-right: 0px;
+  margin-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+  float: none;
+}
+
+.solidez-mision-vision .solidez-mision-vision-encabezado h2{
+	text-align: center;
+}
+
 	/************************/
 	/************************/
 	/************************/

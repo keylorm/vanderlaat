@@ -203,7 +203,7 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 		height: auto;
 	}
 	.views-field-field-imagen-top img{
-		width: 100%;
+		width: 100% !important;
 		height: auto;
 	}
 	.view-id-imagen_top .views-field-nothing{
@@ -522,7 +522,10 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 }
 
 @media only screen and (min-width : 1001px) and (max-width : 1240px) {
-
+	.views-field-field-imagen-top img{
+		width: 100% !important;
+		height: auto;
+	}
 	#block-views-servicios-block-1 .view-content .views-row .servicio-imagen, #block-views-servicios-block-2 .view-content .views-row .servicio-imagen{
 		width: 430px;
 	}

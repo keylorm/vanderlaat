@@ -90,8 +90,56 @@
 	  margin: 0 auto;
 	  float: none;
 	}
+
+
+
+	/*Solidez y respaldo*/
+
+	.view-id-fundadores .view-content .views-row {
+  float: none;
+  width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto 40px !important;
+}
+
+.solidez-mision-vision .solidez-mision-vision-encabezado h2{
+	font-size: 32px;
+}
+
+.view-id-fundadores .fundadores-encabezado h2 {
+	font-size: 32px;
+}	
 	
+
+	.solidez-liston-contacto-negro .solidez-liston-contacto-negro-texto p {
+		font-size: 22px;
+	}
+
+
+	.solidez-liston-proyectos-amarillo .solidez-liston-proyectos-amarillo-texto p {
+  font-size: 22px;
+}
 	
+	.view-premios .view-content .views-row {
+  width: 315px;
+  float: none;
+  height: auto;
+  margin: 0 auto 25px;
+}
+
+.view-premios .view-content .views-row.views-row-3, .view-premios .view-content .views-row.views-row-6, .view-premios .view-content .views-row.views-row-9, .view-premios .view-content .views-row.views-row-12, .view-premios .view-content .views-row.views-row-15{
+	margin-right: auto;
+}
+
+#block-block-16 .pilares .pilares-titulo h2, #block-block-17 .pilares .pilares-titulo h2 {
+  font-size: 32px;
+  line-height: 35px;
+  width: 300px;
+}
+	
+	.view-premios .premios-encabezado-titulo h2	{
+		font-size: 32px
+	}
 	
 	
 	/************************/
@@ -543,4 +591,16 @@
 	.page-search li.search-result p{
 	}
 			
+}
+
+@media only screen and (max-width : 359px) {
+	.view-id-historia .views-row{
+		width: 100%;
+	}
+
+	.view-id-historia .views-row .views-field-field-imagen img{
+		width: 100%;
+		height: auto;
+	}
+	
 }

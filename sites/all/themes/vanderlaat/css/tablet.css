@@ -93,6 +93,32 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	text-align: center;
 }
 
+.view-id-fundadores .view-content .views-row .fundador-imagen {
+  float: none;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.view-id-fundadores .view-content .views-row .fundador-texto {
+  float: none;
+  width: 90%;
+  box-sizing: border-box;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.view-premios .view-content .views-row {
+  width: 44%;
+  min-height: 110px;
+  float: left;
+  height: 140px;
+  margin: 0 3% 25px;
+}
+.view-premios .view-content .views-row.views-row-3, .view-premios .view-content .views-row.views-row-6, .view-premios .view-content .views-row.views-row-9, .view-premios .view-content .views-row.views-row-12, .view-premios .view-content .views-row.views-row-15 {
+  margin-right: 3%;
+}
+
 	/************************/
 	/************************/
 	/************************/
@@ -203,7 +229,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	.page-node-51 .submenu-list li a{
 		padding: 7px 24px;
 	}
-	.submenu-list li.first a{
+	.page-node-50 .submenu-list li.first a,
+	.page-node-51 .submenu-list li.first a{
 		padding-left: 24px !important;
 	}
 	body.page-node-50 .view-servicios .view-content,

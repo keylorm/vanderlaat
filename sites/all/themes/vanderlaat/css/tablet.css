@@ -56,6 +56,30 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
   width: 252px;
 }
 
+.submenu-list li.first a{
+	padding-left: 55px !important;
+}
+.submenu-list li.last a {
+   padding-right: 55px !important;
+
+}
+
+.submenu-list{
+	text-align: center;
+}
+
+.view-id-historia .views-row .linea-union{
+	width: 140px;
+	height: 5px;
+	background-image: none;
+	display: none;
+	position: absolute;
+}
+
+.view-id-historia .views-row-2 {
+  margin-top: 0px;
+}
+
 	/************************/
 	/************************/
 	/************************/

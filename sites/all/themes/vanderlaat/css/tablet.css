@@ -87,7 +87,9 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	
 	
 	/*ANDREY S :: 16-03-2015*/
-	
+	.breadcrumb{
+		padding: 20px 20px;
+	}
 	.box_icon {
 		width: 50%;
 	}
@@ -105,8 +107,6 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	#slider-home .flex-caption,
 	#slider-home .flex-direction-nav{
 		width: 100%;
-	}
-	body:not(.front) .main-content{
 	}
 	.flexslider .slides img{
 		height: auto !important;
@@ -276,6 +276,132 @@ body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer 
 	.view-proyectos .views-row-24{	
 		margin-right: 0px;
 		float:right;
-	}		
+	}
+	
+	/*DETALLE*/
+	.node-proyectos .field-name-field-frase-entre-comillas p{
+		font-size: 18px;
+		line-height: 26px;
+	}
+	
+	.node-type-proyectos .view-id-imagen_top .views-row{
+		height: auto;
+	}
+	.node-type-proyectos .texto-hover-imagen-top .texto-hover-imagen-top-titulo h1{
+		padding-top: 13px;
+	}
+	.ficha-tecnica tr td{
+		font-size: 17px;
+	}
+	.view-detalle-proyectos .views-field-field-historia-del-proyecto{
+		padding: 15px 0px 15px 0px;
+	}
+	.view-detalle-proyectos h2{
+		font-size: 31px;
+	}
+	.view-detalle-proyectos .flex-direction-nav{
+		width: 100%;
+	}
+	.view-detalle-proyectos .field-content p{
+		font-size: 18px;
+		padding: 0px 20px;
+	}
+	/*TRABAJEMOS JUNTOS*/
+	.texto-hover-imagen-top .texto-hover-imagen-top-titulo h3{
+		font-size: 22px;
+		  padding-top: 45px;
+	}
+	.node-type-page .field-name-body h3{
+		font-size: 20px;
+		line-height: 25px;		
+	}
+	.page-node-62 .main .field-name-body p,
+	.page-node-63 .main .field-name-body p{
+		font-size: 17px;
+		line-height: 19px;
+		padding: 0 15px;
+	}
+	#block-block-22, #block-block-23, #block-block-24, #block-block-25{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+	.trabaje-con-nosotros-info div{
+		width: 55%;
+		float: left;
+		margin-right: 5%;
+	}
+	.trabaje-con-nosotros-info,
+	.trabaje-con-nosotros-info a{
+		font-size: 16px;
+		line-height: 17px;
+	}
+	.trabaje-con-nosotros-info .email,
+	.trabaje-con-nosotros-info .codigo-postal{
+		width: 40%;
+		margin-right: 0%;
+	}
+	#block-webform-client-block-60.block-webform,
+	#block-webform-client-block-61.block-webform{
+		width: 90%;
+		float: none;
+		overflow:hidden;
+		margin: 0 auto;
+	}
+	#block-webform-client-block-60 .form-text,
+	#block-webform-client-block-61 .form-text{
+		width: 100%;
+	}
+	/*CONTACTO*/
+	.page-node-66 .main .field-name-body p,
+	.page-node-67 .main .field-name-body p{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	#block-webform-client-block-64.block-webform,
+	#block-webform-client-block-65.block-webform{
+		width: 90%;
+		float: none;
+		overflow:hidden;
+		margin: 0 auto;		
+	}
+	#block-webform-client-block-64 .form-text,
+	#block-webform-client-block-65 .form-text{
+		width: 100%;
+	}
+	body .trabaje-con-nosotros-info iframe{
+		width: 100%;
+	}
+	/*BLOG*/
+	body .main-content .main,
+	#sidebar-second{
+		width: 650px;
+		float:none;
+		overflow:hidden;
+		margin: 0 auto;
+	}
+	.page-node-68 .node-page p,
+	.page-node-69 .node-page p{
+		padding: 0px 10px;
+	}
+	.page-node-68 #block-views-blog-block-1,
+	.page-node-69 #block-views-blog-block-1{
+		float: none;
+	}
+	.page-node-68 #block-views-blog-block-1 .view-blog .views-row,
+	.page-node-69 #block-views-blog-block-1 .view-blog .views-row,
+	.page-taxonomy-term .blog-categories .views-row{
+		width: 100%;
+	}
+	.page-node-68 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a,
+	.page-node-69 #block-views-blog-block-1 .view-blog .views-row .field-name-node-link a,
+	.page-taxonomy-term .blog-categories .views-row .field-name-node-link a{
+		right: 6px;
+	}
+	/*DETALLE DEL BLOG*/
+	body:not(.front) .main-content{
+		width: 100%;
+	}
 		
 }

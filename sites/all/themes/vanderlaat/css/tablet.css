@@ -42,82 +42,86 @@
 		font-family: 'Open Sans', sans-serif;
 		font-size: 17px;
 	}
+	body .footer{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
 
 	body .footer .footer-first-wrapper {
-  width: 65%;
-}
-body .footer .footer-second-wrapper {
-  width: 35%;
-}
-
-body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer .footer-second-wrapper #block-webform-client-block-2, body .footer .footer-second-wrapper #block-webform-client-block-1--2, body .footer .footer-second-wrapper #block-webform-client-block-2--2 {
-  margin-top: -5px;
-  float: right;
-  width: 252px;
-}
-
-.submenu-list li.first a{
-	padding-left: 55px !important;
-}
-.submenu-list li.last a {
-   padding-right: 55px !important;
-
-}
-
-.submenu-list{
-	text-align: center;
-}
-
-.view-id-historia .views-row .linea-union{
-	width: 140px;
-	height: 5px;
-	background-image: none;
-	display: none;
-	position: absolute;
-}
-
-.view-id-historia .views-row-2 {
-  margin-top: 0px;
-}
-
-.solidez-mision-vision .solidez-mision-vision-content .solidez-col1, 
-.solidez-mision-vision .solidez-mision-vision-content .solidez-col {
-  margin-right: 0px;
-  margin-top: 30px;
-  width: 90%;
-  margin: 0 auto;
-  float: none;
-}
-
-.solidez-mision-vision .solidez-mision-vision-encabezado h2{
-	text-align: center;
-}
-
-.view-id-fundadores .view-content .views-row .fundador-imagen {
-  float: none;
-  width: 90%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.view-id-fundadores .view-content .views-row .fundador-texto {
-  float: none;
-  width: 90%;
-  box-sizing: border-box;
-  padding-left: 0;
-  margin: 0 auto;
-}
-
-.view-premios .view-content .views-row {
-  width: 44%;
-  min-height: 110px;
-  float: left;
-  height: 140px;
-  margin: 0 3% 25px;
-}
-.view-premios .view-content .views-row.views-row-3, .view-premios .view-content .views-row.views-row-6, .view-premios .view-content .views-row.views-row-9, .view-premios .view-content .views-row.views-row-12, .view-premios .view-content .views-row.views-row-15 {
-  margin-right: 3%;
-}
+		width: 65%;
+	}
+	body .footer .footer-second-wrapper {
+	  width: 35%;
+	}
+	
+	body .footer .footer-second-wrapper #block-webform-client-block-1, body .footer .footer-second-wrapper #block-webform-client-block-2, body .footer .footer-second-wrapper #block-webform-client-block-1--2, body .footer .footer-second-wrapper #block-webform-client-block-2--2 {
+	  margin-top: -5px;
+	  float: right;
+	  width: 252px;
+	}
+	
+	.submenu-list li.first a{
+		padding-left: 55px !important;
+	}
+	.submenu-list li.last a {
+	   padding-right: 55px !important;
+	
+	}
+	
+	.submenu-list{
+		text-align: center;
+	}
+	
+	.view-id-historia .views-row .linea-union{
+		width: 140px;
+		height: 5px;
+		background-image: none;
+		display: none;
+		position: absolute;
+	}
+	
+	.view-id-historia .views-row-2 {
+	  margin-top: 0px;
+	}
+	
+	.solidez-mision-vision .solidez-mision-vision-content .solidez-col1, 
+	.solidez-mision-vision .solidez-mision-vision-content .solidez-col {
+	  margin-right: 0px;
+	  margin-top: 30px;
+	  width: 90%;
+	  margin: 0 auto;
+	  float: none;
+	}
+	
+	.solidez-mision-vision .solidez-mision-vision-encabezado h2{
+		text-align: center;
+	}
+	
+	.view-id-fundadores .view-content .views-row .fundador-imagen {
+	  float: none;
+	  width: 90%;
+	  text-align: center;
+	  margin: 0 auto;
+	}
+	
+	.view-id-fundadores .view-content .views-row .fundador-texto {
+	  float: none;
+	  width: 90%;
+	  box-sizing: border-box;
+	  padding-left: 0;
+	  margin: 0 auto;
+	}
+	
+	.view-premios .view-content .views-row {
+	  width: 44%;
+	  min-height: 110px;
+	  float: left;
+	  height: 140px;
+	  margin: 0 3% 25px;
+	}
+	.view-premios .view-content .views-row.views-row-3, .view-premios .view-content .views-row.views-row-6, .view-premios .view-content .views-row.views-row-9, .view-premios .view-content .views-row.views-row-12, .view-premios .view-content .views-row.views-row-15 {
+	  margin-right: 3%;
+	}
 
 	/************************/
 	/************************/

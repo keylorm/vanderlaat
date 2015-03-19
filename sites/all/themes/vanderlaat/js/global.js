@@ -1,6 +1,38 @@
 
 jQuery(document).ready(function(){
 
+
+	jQuery( window ).scroll(function() {
+		var submenu = jQuery( ".submenu" );
+		var position = submenu.offset();
+		if(jQuery(window).scrollTop() > position.top){
+			submenu.removeClass('grid-1000');
+			submenu.find('.pane-content').addClass('fixtop');
+		}else{
+			submenu.addClass('grid-1000');
+			submenu.find('.pane-content').removeClass('fixtop');
+		}
+		//console.log(position.top + ' :: ' + jQuery(window).height() + ' :: ' + jQuery(window).scrollTop());
+	});
+	
+	jQuery(".submenu-list li a").click(function(){
+		jQuery(".submenu-list li a").removeClass('active');
+		jQuery(this).addClass('active');
+		
+	});
+
+	/*
+	.grid-1000 active
+	.submenu
+	#submenuquehacemos
+	#submenurespaldo
+	
+	
+	
+	*/
+
+
+
 	jQuery('body.i18n-es #edit-field-categoria-proyecto-tid option[value="All"]').text("- Todos -");
 
 	jQuery('body.i18n-es #edit-field-servicio-tid option[value="All"]').text("- Todos -");

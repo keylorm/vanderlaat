@@ -2601,8 +2601,8 @@ body .footer .footer-second-wrapper #block-webform-client-block-2--2 .webform-su
 
 }
 
-.not-logged-in .messages-wrapper{
-	display: none;
+.messages-wrapper{
+	margin: 0 0 30px ;
 }
 
 .page-search-node #edit-advanced{

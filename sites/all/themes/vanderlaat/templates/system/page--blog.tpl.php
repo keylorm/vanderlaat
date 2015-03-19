@@ -10,14 +10,7 @@
  */
 ?>
 <header class="header" role="banner">
-  <?php if ($messages): ?>
-  <div class="messages-wrapper">
-    <div class="messages-content">
-      <?php print $messages; ?>
-    </div>
-    <a href="#" id="messages-toggle"><?php print t('Close');?></a>
-  </div>
-  <?php endif; ?>
+  
     <?php if ($page['utility_bar']): ?>
       <div class="utility-bar">
         <?php print render($page['utility_bar']); ?>
@@ -70,6 +63,14 @@
 <div class="main-content">
   <?php if ($breadcrumb): ?>
     <?php print $breadcrumb; ?>
+  <?php endif; ?>
+  <?php if ($messages): ?>
+  <div class="messages-wrapper">
+    <div class="messages-content">
+      <?php print $messages; ?>
+    </div>
+    
+  </div>
   <?php endif; ?>
 
   <?php if ($page['highlighted']): ?>

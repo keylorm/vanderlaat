@@ -41,8 +41,9 @@
 
   <?php if ($exposed): ?>
     <div class="view-filters">
-      <div class="label-filtro"><p><?php print t('Filter by:'); ?></p></div>
-      <?php print $exposed; ?>
+      <div class="container-filter">
+        <div class="label-filtro"><p><?php print t('Filter by:'); ?></p></div>
+      <?php print $exposed; ?></div>
     </div>
   <?php endif; ?>
 
